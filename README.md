@@ -6,6 +6,7 @@ npm install
 Run npm run build in the root directory. Go to the dist folder and change the following paths in index.html:
 src="/assets/index...js" to src="./assets/index...js"
 href="/assets./index...css" to href="./assets./index...css".
+Copy the contents of index.html into the 200.html file on the server.
 Then copy the folder on upload it on production.
 
 # Svelte + TS + Vite
