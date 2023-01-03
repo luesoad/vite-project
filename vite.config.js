@@ -16,6 +16,6 @@ export default defineConfig({
     }),
     pages(),
   ],
- // optimizeDeps: { exclude: ["svelte-router"] },
+  // optimizeDeps: { exclude: ["svelte-router"] },
   css: { postcss },
 });
