@@ -1,0 +1,10 @@
+@import "colors";
+
+.article {
+  background: $white;
+  padding: 0.5rem;
+
+  &:nth-child(even) {
+    background: $grey;
+  }
+}

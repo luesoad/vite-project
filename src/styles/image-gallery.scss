@@ -1,0 +1,19 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+  align-items: center;
+
+  &__item {
+    &__image {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+      transition: opacity 0.25s ease-in-out;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}

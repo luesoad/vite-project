@@ -1,0 +1,325 @@
+[
+  {
+    "year": 2022,
+    "concerts": [
+      {
+        "location": "Marburg",
+        "bands": [
+          "Verheerer",
+          "Friisk"
+        ],
+        "date": "2022-11-26",
+        "time": "19.30"
+      },
+      {
+        "location": "Landau",
+        "bands": [
+          "Hexis",
+          "Aeternum"
+        ],
+        "date": "2022-10-19",
+        "time": "19.00"
+      },
+      {
+        "location": "Rodgau",
+        "bands": [
+          "Hyems",
+          "Black Parable"
+        ],
+        "date": "2022-10-15",
+        "time": "19.00"
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "concerts": [
+      {
+        "location": "Mannheim",
+        "bands": [
+          "Ketzer"
+        ],
+        "date": "2019-07-2021",
+        "time": "19.00"
+      },
+      {
+        "location": "Göttingen",
+        "bands": [
+          "Uada",
+          "Panzerfaust"
+        ],
+        "date": "2019-06-20",
+        "time": "16.00"
+      }
+    ]
+  },
+  {
+    "year": 2018,
+    "concerts": [
+      {
+        "location": "Darmstadt",
+        "date": "2018-11-24",
+        "time": "19.00"
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "concerts": [
+      {
+        "location": "JUZ Mannheim",
+        "bands": [
+          "Yellow Eyes"
+        ]
+      },
+      {
+        "location": "Lörrach",
+        "bands": [
+          "Warfield",
+          "Disinfektor",
+          "Askara"
+        ]
+      },
+      {
+        "location": "Hofheim",
+        "bands": [
+          "Heimdalls Wacht",
+          "Narvik",
+          "Halphas",
+          "Svartsorg",
+          "Streams of Blood"
+        ]
+      },
+      {
+        "location": "Saarbrücken",
+        "bands": [
+          "Sunshine & Lollipops",
+          "Carn Dûm"
+        ]
+      },
+      {
+        "location": "Bobstadt",
+        "bands": [
+          "Hyems",
+          "Vargsheim",
+          "Golgothar",
+          "Overfrost"
+        ]
+      },
+      {
+        "location": "Göttingen",
+        "bands": [
+          "Endless Curse",
+          "The Flesh Trading Company",
+          "Crimson Death"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2015,
+    "concerts": [
+      {
+        "location": "Darmstadt",
+        "bands": [
+          "hessaja",
+          "Thakandar"
+        ]
+      },
+      {
+        "location": "Frankfurt",
+        "bands": [
+          "Solbrud"
+        ]
+      },
+      {
+        "location": "Stuttgart",
+        "bands": [
+          "Pest Empire",
+          "Fortress Black"
+        ]
+      },
+      {
+        "location": "Oberhausen",
+        "bands": [
+          "Thyrgrims",
+          "Northern Plague",
+          "Pestreiter"
+        ]
+      },
+      {
+        "location": "Leonberg",
+        "bands": [
+          "Hyems",
+          "Firtan",
+          "Fantoft",
+          "Wrack"
+        ]
+      },
+      {
+        "location": "Darmstadt",
+        "bands": [
+          "Hyems",
+          "Steingrab",
+          "Pest Empire"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2014,
+    "concerts": [
+      {
+        "location": "Frankenthal",
+        "bands": [
+          "Astaron",
+          "Angur",
+          "Minotaurus"
+        ]
+      },
+      {
+        "location": "Osnabrück",
+        "bands": [
+          "Occultus",
+          "Thakandar",
+          "Larvae"
+        ]
+      },
+      {
+        "location": "Mülheim/Ruhr",
+        "bands": [
+          "geÄst",
+          "Morne"
+        ]
+      },
+      {
+        "location": "Kreuztal/Siegen",
+        "bands": [
+          "Sekoria"
+        ]
+      },
+      {
+        "location": "Wehrheim",
+        "bands": [
+          "Felsenfeste",
+          "Lucem Ferre"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "concerts": [
+      {
+        "location": "Würzburg",
+        "bands": [
+          "Apokrypha",
+          "Vargsheim"
+        ]
+      },
+      {
+        "location": "Darmstadt",
+        "bands": [
+          "Blood Patrol"
+        ]
+      },
+      {
+        "location": "Cottbus",
+        "bands": [
+          "Arroganz",
+          "Bitchhammer"
+        ]
+      },
+      {
+        "location": "Essen",
+        "bands": [
+          "Frigoris",
+          "Urmorth",
+          "Caradras"
+        ]
+      },
+      {
+        "location": "Darmstadt",
+        "bands": [
+          "Frigoris"
+        ]
+      },
+      {
+        "location": "Kaiserslautern",
+        "bands": [
+          "Draugen",
+          "Wolfhetan",
+          "Schattenbrandung",
+          "Infestus"
+        ]
+      },
+      {
+        "location": "Mannheim",
+        "bands": [
+          "geÄst",
+          "Ctulu"
+        ]
+      },
+      {
+        "location": "Hofheim",
+        "bands": [
+          "Hyems",
+          "High Rise Fall"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "concerts": [
+      {
+        "location": "Frankfurt",
+        "bands": [
+          "Der Weg Einer Freiheit",
+          "Arroganz"
+        ]
+      },
+      {
+        "location": "Darmstadt",
+        "bands": [
+          "Kain"
+        ]
+      },
+      {
+        "location": "Leipzig",
+        "bands": [
+          "Cold Aeon"
+        ]
+      }
+    ]
+  },
+  {
+    "year": 2011,
+    "concerts": [
+      {
+        "location": "Mannheim",
+        "bands": [
+          "Deadwood",
+          "Winterfallen",
+          "Asuras",
+          "Khaos Aeon"
+        ]
+      },
+      {
+        "location": "Mainz",
+        "bands": [
+          "Orcus Patera",
+          "Contraption"
+        ]
+      },
+      {
+        "location": "Osnabrück",
+        "bands": [
+          "Under That Spell",
+          "Negativvm",
+          "Träumen von Aurora"
+        ]
+      }
+    ]
+  }
+]
