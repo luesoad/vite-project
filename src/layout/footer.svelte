@@ -25,7 +25,7 @@
                 <h2 class="mb-6 text-sm font-semibold uppercase">Follow us</h2>
                 <div class="flex">
 
-                    <FooterIcon class="mr-2"
+                    <FooterIcon class="mr-2 hover:bg-white"
                                 href="https://www.youtube.com/channel/UCWNXZHr9il0v_RSERHCqthw" rel="noreferrer"
                                 target="_blank">
                         <svg class="w-5 h-5 footer__icon" fill="black" viewBox="-35.20005 -41.33325 305.0671 247.9995"
@@ -54,7 +54,7 @@
                                   fill-rule="evenodd"/>
                         </svg>
                     </FooterIcon>
-                    <FooterIcon class="hover:bg-white" href="https://de-de.facebook.com/fallen.tyrant/"
+                    <FooterIcon href="https://de-de.facebook.com/fallen.tyrant/"
                                 rel="noreferrer" target="_blank">
                         <svg aria-hidden="true" class="w-5 h-5 footer__icon" fill="currentColor" viewBox="0 0 24 24">
                             <path clip-rule="evenodd"
