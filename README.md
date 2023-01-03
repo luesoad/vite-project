@@ -1,3 +1,6 @@
+# Get started
+npm install
+
 # How to build
 
 Run npm run build in the root directory. Go to the dist folder and change the following paths in index.html:
