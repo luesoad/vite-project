@@ -4,6 +4,7 @@
     import concerts from "../data/concerts.json";
     const now = new Date();
     const currentYear = now.getFullYear();
+    const lastYear = currentYear-1;
 
 </script>
 
@@ -40,7 +41,7 @@
             {/each}
         </ul>
 
-        {#if el.year && el.year === currentYear }
+        {#if el.year && (el.year === currentYear || el.year === lastYear) }
             <Heading class="mt-8">Latest</Heading>
             <ul class="flex-container bg-black">
                 {#each el.concerts as concert}
