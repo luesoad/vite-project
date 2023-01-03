@@ -1,0 +1,6 @@
+@import "colors";
+.footer__icon {
+  &:hover {
+    fill: $white;
+  }
+}
