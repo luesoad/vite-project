@@ -9,8 +9,8 @@
     <Heading>Impressum</Heading>
     <div class="bg-white pt-4 p-4">
         <div>Niels Nußhart</div>
-        <div>Offenthaler Str. 15</div>
-        <div>63329 Egelsbach</div>
+        <div>Bergmannweg 8</div>
+        <div>65934 Frankfurt am Main</div>
         <a href="javascript:window.location.href=atob('bWFpbHRvOmFkbWlAbmllbHNudXNzaGFydC5kZQ==')">E-Mail</a>
         <p class="mt-4 text-xs">Website created by Charlotte Jessegus</p>
     </div>
