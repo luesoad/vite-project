@@ -1,6 +1,17 @@
 [
   {
-    "year": 2022,
+    "year": 2023,
+    "concerts": [
+      {
+        "location": "Würzburg",
+        "bands": ["Horrormance", "Ratrotten"],
+        "date": "2023-05-12",
+        "time": "20.00"
+      }
+
+    ]
+  {
+    "year": 2022
     "concerts": [
       {
         "location": "Marburg",
