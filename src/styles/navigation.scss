@@ -1,4 +1,4 @@
-@import "colors";
+@use "colors";
 
 nav {
   z-index: 200;
@@ -9,7 +9,7 @@ a.nav-li {
   font-size: 40px;
 
   &:hover {
-    background: $black;
+    background: colors.$black;
     opacity: 0.5;
   }
 }
@@ -24,24 +24,24 @@ nav.nav--smaller {
 }
 
 ul.nav-ul {
-  background: $black !important;
+  background: colors.$black !important;
   border: none;
   border-radius: 0;
   height: 100vh;
 }
 
 button.burger {
-  background: $black;
-  color: $white !important;
+  background: colors.$black;
+  color: colors.$white !important;
   border-radius: 0 !important;
-  border: 2px solid $grey !important;
+  border: 2px solid colors.$grey !important;
 
   &:hover,
   &:focus,
   &:active {
-    background: $black;
-    color: $white !important;
-    border: 2px solid $grey !important;
+    background: colors.$black;
+    color: colors.$white !important;
+    border: 2px solid colors.$grey !important;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -59,10 +59,10 @@ button.burger {
     height: auto;
   }
   a.nav-li {
-    border-right: 1px solid $white !important;
+    border-right: 1px solid colors.$white !important;
     padding: 0 5px;
     margin: 0 5px;
-    border-left: 1px solid $white !important;
+    border-left: 1px solid colors.$white !important;
     border-radius: 0;
 
     &:hover,

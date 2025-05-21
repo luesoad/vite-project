@@ -1,6 +1,6 @@
-@import "colors";
+@use "colors";
 .footer__icon {
   &:hover {
-    fill: $white;
+    fill: colors.$white;
   }
 }

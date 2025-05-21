@@ -3,7 +3,7 @@
 
     let showThumbs = false
     let showCaptions = false
-    export let images;
+    let { images } = $props();
 
 </script>
 {#if images.length > 0 && images.length < 2}

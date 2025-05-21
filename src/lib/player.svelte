@@ -1,7 +1,13 @@
 <script type="application/javascript">
-    export let link = "";
-    export let videoId = ""
-    export let type;
+    /**
+     * @typedef {Object} Props
+     * @property {string} [link]
+     * @property {string} [videoId]
+     * @property {any} type
+     */
+
+    /** @type {Props} */
+    let { link = "", videoId = "", type } = $props();
 </script>
 
 

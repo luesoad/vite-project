@@ -1,3 +1,5 @@
+@use "colors";
+
 .back-to-top {
   opacity: 1;
   transition: opacity 0.5s, visibility 0.5s;
@@ -6,8 +8,8 @@
   right: 20px;
   user-select: none;
   bottom: 20px;
-  color: white;
-  background-color: black;
+  color: colors.$black;
+  background-color: colors.$black;
   cursor: pointer;
 
   &.hidden {

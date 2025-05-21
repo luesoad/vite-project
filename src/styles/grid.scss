@@ -1,4 +1,4 @@
-@import "colors";
+@use "colors";
 
 .flex-container {
   display: flex;
@@ -11,7 +11,7 @@
   padding: 0.5rem;
   display: flex;
   flex: 100%;
-  background: white;
+  background: colors.$white;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -33,7 +33,7 @@
   padding-top: 0;
   height: 0;
   overflow: hidden;
-  border: 5px solid $white;
+  border: 5px solid colors.$white;
 
   iframe,
   object,

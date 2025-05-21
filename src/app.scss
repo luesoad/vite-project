@@ -1,22 +1,21 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@import "styles/helper";
-@import "styles/colors";
-@import "styles/article";
-@import "styles/buttons";
-@import "styles/image-gallery";
-@import "styles/navigation";
-@import "styles/grid";
-@import "styles/footer";
+@use "tailwindcss";
+@use "styles/helper";
+@use "styles/colors";
+@use "styles/article";
+@use "styles/buttons";
+@use "styles/image-gallery";
+@use "styles/navigation";
+@use "styles/grid";
+@use "styles/footer";
+
 $navbar-height: 100px;
 $navbar-height--mobile: 60px;
 
 body {
   font-family: "Courier New", Courier, FreeMono, monospace;
   font-size: 18px;
-  background: $black;
-  color: $black;
+  background: colors.$black;
+  color: colors.$black;
 }
 
 /* The article fills all the space between header & footer */
@@ -46,8 +45,8 @@ ul.list-disc {
 }
 
 strong {
-  background: $black;
-  color: $white;
+  background: colors.$black;
+  color: colors.$white;
   padding-right: 2px;
   padding-left: 2px;
 }
@@ -57,8 +56,8 @@ h2,
 h4,
 h5,
 h6 {
-  background: $black;
-  color: $white !important;
+  background: colors.$black;
+  color: colors.$white !important;
   display: table;
   width: auto !important;
   padding: 0 0.5rem;
@@ -78,19 +77,19 @@ h3 {
 
 nav,
 footer {
-  background: black !important;
-  color: $white;
+  background: colors.$black !important;
+  color:  colors.$white;
   font-size: 16px;
 }
 
 nav li a,
 footer li a {
-  color: $white !important;
+  color: colors.$white !important;
 }
 
 button {
-  background: $black;
-  color: $white;
+  background:colors.$black;
+  color: colors.$white;
   border-radius: 0;
 }
 

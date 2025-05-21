@@ -8,35 +8,26 @@
         "date": "2023-05-12",
         "time": "20.00"
       }
-
     ]
+  },
   {
-    "year": 2022
+    "year": 2022,
     "concerts": [
       {
         "location": "Marburg",
-        "bands": [
-          "Verheerer",
-          "Friisk"
-        ],
+        "bands": ["Verheerer", "Friisk"],
         "date": "2022-11-26",
         "time": "19.30"
       },
       {
         "location": "Landau",
-        "bands": [
-          "Hexis",
-          "Aeternum"
-        ],
+        "bands": ["Hexis", "Aeternum"],
         "date": "2022-10-19",
         "time": "19.00"
       },
       {
         "location": "Rodgau",
-        "bands": [
-          "Hyems",
-          "Black Parable"
-        ],
+        "bands": ["Hyems", "Black Parable"],
         "date": "2022-10-15",
         "time": "19.00"
       }
@@ -47,18 +38,13 @@
     "concerts": [
       {
         "location": "Mannheim",
-        "bands": [
-          "Ketzer"
-        ],
+        "bands": ["Ketzer"],
         "date": "2019-07-2021",
         "time": "19.00"
       },
       {
         "location": "Göttingen",
-        "bands": [
-          "Uada",
-          "Panzerfaust"
-        ],
+        "bands": ["Uada", "Panzerfaust"],
         "date": "2019-06-20",
         "time": "16.00"
       }
@@ -79,51 +65,27 @@
     "concerts": [
       {
         "location": "JUZ Mannheim",
-        "bands": [
-          "Yellow Eyes"
-        ]
+        "bands": ["Yellow Eyes"]
       },
       {
         "location": "Lörrach",
-        "bands": [
-          "Warfield",
-          "Disinfektor",
-          "Askara"
-        ]
+        "bands": ["Warfield", "Disinfektor", "Askara"]
       },
       {
         "location": "Hofheim",
-        "bands": [
-          "Heimdalls Wacht",
-          "Narvik",
-          "Halphas",
-          "Svartsorg",
-          "Streams of Blood"
-        ]
+        "bands": ["Heimdalls Wacht", "Narvik", "Halphas", "Svartsorg", "Streams of Blood"]
       },
       {
         "location": "Saarbrücken",
-        "bands": [
-          "Sunshine & Lollipops",
-          "Carn Dûm"
-        ]
+        "bands": ["Sunshine & Lollipops", "Carn Dûm"]
       },
       {
         "location": "Bobstadt",
-        "bands": [
-          "Hyems",
-          "Vargsheim",
-          "Golgothar",
-          "Overfrost"
-        ]
+        "bands": ["Hyems", "Vargsheim", "Golgothar", "Overfrost"]
       },
       {
         "location": "Göttingen",
-        "bands": [
-          "Endless Curse",
-          "The Flesh Trading Company",
-          "Crimson Death"
-        ]
+        "bands": ["Endless Curse", "The Flesh Trading Company", "Crimson Death"]
       }
     ]
   },
@@ -132,48 +94,27 @@
     "concerts": [
       {
         "location": "Darmstadt",
-        "bands": [
-          "hessaja",
-          "Thakandar"
-        ]
+        "bands": ["hessaja", "Thakandar"]
       },
       {
         "location": "Frankfurt",
-        "bands": [
-          "Solbrud"
-        ]
+        "bands": ["Solbrud"]
       },
       {
         "location": "Stuttgart",
-        "bands": [
-          "Pest Empire",
-          "Fortress Black"
-        ]
+        "bands": ["Pest Empire", "Fortress Black"]
       },
       {
         "location": "Oberhausen",
-        "bands": [
-          "Thyrgrims",
-          "Northern Plague",
-          "Pestreiter"
-        ]
+        "bands": ["Thyrgrims", "Northern Plague", "Pestreiter"]
       },
       {
         "location": "Leonberg",
-        "bands": [
-          "Hyems",
-          "Firtan",
-          "Fantoft",
-          "Wrack"
-        ]
+        "bands": ["Hyems", "Firtan", "Fantoft", "Wrack"]
       },
       {
         "location": "Darmstadt",
-        "bands": [
-          "Hyems",
-          "Steingrab",
-          "Pest Empire"
-        ]
+        "bands": ["Hyems", "Steingrab", "Pest Empire"]
       }
     ]
   },
@@ -182,39 +123,23 @@
     "concerts": [
       {
         "location": "Frankenthal",
-        "bands": [
-          "Astaron",
-          "Angur",
-          "Minotaurus"
-        ]
+        "bands": ["Astaron", "Angur", "Minotaurus"]
       },
       {
         "location": "Osnabrück",
-        "bands": [
-          "Occultus",
-          "Thakandar",
-          "Larvae"
-        ]
+        "bands": ["Occultus", "Thakandar", "Larvae"]
       },
       {
         "location": "Mülheim/Ruhr",
-        "bands": [
-          "geÄst",
-          "Morne"
-        ]
+        "bands": ["geÄst", "Morne"]
       },
       {
         "location": "Kreuztal/Siegen",
-        "bands": [
-          "Sekoria"
-        ]
+        "bands": ["Sekoria"]
       },
       {
         "location": "Wehrheim",
-        "bands": [
-          "Felsenfeste",
-          "Lucem Ferre"
-        ]
+        "bands": ["Felsenfeste", "Lucem Ferre"]
       }
     ]
   },
@@ -223,60 +148,35 @@
     "concerts": [
       {
         "location": "Würzburg",
-        "bands": [
-          "Apokrypha",
-          "Vargsheim"
-        ]
+        "bands": ["Apokrypha", "Vargsheim"]
       },
       {
         "location": "Darmstadt",
-        "bands": [
-          "Blood Patrol"
-        ]
+        "bands": ["Blood Patrol"]
       },
       {
         "location": "Cottbus",
-        "bands": [
-          "Arroganz",
-          "Bitchhammer"
-        ]
+        "bands": ["Arroganz", "Bitchhammer"]
       },
       {
         "location": "Essen",
-        "bands": [
-          "Frigoris",
-          "Urmorth",
-          "Caradras"
-        ]
+        "bands": ["Frigoris", "Urmorth", "Caradras"]
       },
       {
         "location": "Darmstadt",
-        "bands": [
-          "Frigoris"
-        ]
+        "bands": ["Frigoris"]
       },
       {
         "location": "Kaiserslautern",
-        "bands": [
-          "Draugen",
-          "Wolfhetan",
-          "Schattenbrandung",
-          "Infestus"
-        ]
+        "bands": ["Draugen", "Wolfhetan", "Schattenbrandung", "Infestus"]
       },
       {
         "location": "Mannheim",
-        "bands": [
-          "geÄst",
-          "Ctulu"
-        ]
+        "bands": ["geÄst", "Ctulu"]
       },
       {
         "location": "Hofheim",
-        "bands": [
-          "Hyems",
-          "High Rise Fall"
-        ]
+        "bands": ["Hyems", "High Rise Fall"]
       }
     ]
   },
@@ -285,22 +185,15 @@
     "concerts": [
       {
         "location": "Frankfurt",
-        "bands": [
-          "Der Weg Einer Freiheit",
-          "Arroganz"
-        ]
+        "bands": ["Der Weg Einer Freiheit", "Arroganz"]
       },
       {
         "location": "Darmstadt",
-        "bands": [
-          "Kain"
-        ]
+        "bands": ["Kain"]
       },
       {
         "location": "Leipzig",
-        "bands": [
-          "Cold Aeon"
-        ]
+        "bands": ["Cold Aeon"]
       }
     ]
   },
@@ -309,27 +202,15 @@
     "concerts": [
       {
         "location": "Mannheim",
-        "bands": [
-          "Deadwood",
-          "Winterfallen",
-          "Asuras",
-          "Khaos Aeon"
-        ]
+        "bands": ["Deadwood", "Winterfallen", "Asuras", "Khaos Aeon"]
       },
       {
         "location": "Mainz",
-        "bands": [
-          "Orcus Patera",
-          "Contraption"
-        ]
+        "bands": ["Orcus Patera", "Contraption"]
       },
       {
         "location": "Osnabrück",
-        "bands": [
-          "Under That Spell",
-          "Negativvm",
-          "Träumen von Aurora"
-        ]
+        "bands": ["Under That Spell", "Negativvm", "Träumen von Aurora"]
       }
     ]
   }
