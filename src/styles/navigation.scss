@@ -1,83 +1,101 @@
-@use "colors";
-@use "constants";
+@use "constants" as *;
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   z-index: 200;
-  transition: all 0.5s ease;
-}
+  background: rgba($color-black, 0.92);
+  box-shadow:
+    0 2px 16px 0 rgba($color-card-bg-hover, 0.18),
+    0 8px 32px 0 rgba($color-black, 0.24),
+    0 1.5px 6px 0 $color-accent;
+  backdrop-filter: blur(6px);
+  transition: all 0.5s cubic-bezier(0.4,0,0.2,1);
 
-a.nav-li {
-  font-size: constants.$font-size-lg;
-
-  &:hover {
-    background: colors.$black;
-    opacity: 0.5;
+  &.nav--scrolled {
+    padding: 0.6rem 0;
+    background: rgba($color-black, 0.98);
+    box-shadow:
+      0 4px 24px 0 rgba($color-card-bg-hover, 0.30),
+      0 12px 48px 0 rgba($color-black, 0.28),
+      0 2px 8px 0 $color-accent;
   }
 }
 
-nav.nav--smaller {
-  transition: all 0.5s ease;
-
-  .logo {
-    transition: all 0.5s ease;
-    height: 50px !important;
-  }
+.logo {
+  height: 70px;
+  width: auto;
+  transition: height 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+nav.nav--scrolled .logo {
+  height: 38px;
 }
 
 ul.nav-ul {
-  background: colors.$black !important;
+  background: transparent !important;
   border: none;
   border-radius: 0;
-  height: 100vh;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+a.nav-li {
+  font-size: $font-size-base; 
+  color: $color-white;
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s, color 0.2s;
+  background: transparent;
+
+  &:hover,
+  &.active {
+    background: $color-card-bg-hover;
+    color: $color-accent;
+  }
 }
 
 button.burger {
-  background: colors.$black;
-  color: colors.$white !important;
-  border-radius: 0 !important;
-  border: 2px solid colors.$grey !important;
+  background: $color-black;
+  color: $color-white !important;
+  border-radius: 0.3rem !important;
+  border: 2px solid $color-gray !important;
+  transition: background 0.2s, color 0.2s;
 
   &:hover,
   &:focus,
   &:active {
-    background: colors.$black;
-    color: colors.$white !important;
-    border: 2px solid colors.$grey !important;
+    background: $color-card-bg-hover;
+    color: $color-accent !important;
+    border: 2px solid $color-accent !important;
   }
 }
 
-@media only screen and (min-width: constants.$breakpoint-md) {
+@media only screen and (max-width: $breakpoint-md) {
   ul.nav-ul {
-    border: none;
-    height: auto;
+    flex-direction: column;
+    gap: 0.5rem;
+    background: $color-black !important;
+    padding: 1.5rem 0;
+    width: 100vw;
+    left: 0;
+    top: 100%;
+    border-top: 1px solid $color-card-bg-hover;
+    box-shadow: 0 8px 32px rgba($color-card-bg-hover, 0.18);
   }
   a.nav-li {
-    font-size: constants.$font-size-md;
-  }
-}
-
-@media only screen and (min-width: constants.$breakpoint-lg) {
-  nav {
-    height: auto;
-  }
-  a.nav-li {
-    border-right: 1px solid colors.$white !important;
-    padding: 0 5px;
-    margin: 0 5px;
-    border-left: 1px solid colors.$white !important;
+    width: 100%;
+    text-align: center;
+    font-size: $font-size-base;
+    padding: 1rem 0;
     border-radius: 0;
-
-    &:hover,
-    &--active {
-      border-right: none !important;
-      border-left: none !important;
-      padding: 0;
-      margin: 0;
-
-      &:before,
-      &:after {
-        content: "\2193";
-      }
-    }
+  }
+  .logo {
+    height: 48px;
   }
 }

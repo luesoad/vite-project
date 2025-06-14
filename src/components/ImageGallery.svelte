@@ -1,39 +1,11 @@
 <script lang="ts">
-    import { CREW, ALUMNI, HERO_IMAGE } from '../lib/constants';
+  export let images: { imgurl: string; alt?: string }[] = [];
 </script>
 
-<div class="container ft-container">
-    <img alt="Neon Skyline Synthwave Project" class="m-auto" src={HERO_IMAGE}/>
-    <div class="bg-white p-4 mt-4 mb-4">
-        <h2>Mission</h2>
-
-        <p>Retro-futuristic synthwave duo, established in 2017, channeling the spirit of neon-lit cityscapes and vintage arcade dreams. Our music is inspired by 80s movie soundtracks, analog synths, and the endless possibilities of a digital tomorrow. We embrace nostalgia, but always with a modern twist, crafting soundtracks for memories that never happened and futures yet to come.</p>
-        <p>
-            Live performances are a celebration of electronic nostalgia, where shimmering synths and pulsating beats merge with vibrant visuals and laser-lit atmospheres. We aim to transport our audience to a parallel universe—one filled with magenta sunsets, chrome highways, and infinite possibilities.
-        </p>
-        <p>We welcome all dreamers, creators, and wanderers. Leave your worries at the door and step into the glow of the skyline.</p>
-
-        <p>For collaborations, bookings & general inquiries: <strong><a
-                href="mailto:contact@neonskyline.io">Contact us</a></strong></p>
+<div class="image-gallery">
+  {#each images as image, i (i)}
+    <div class="gallery-img-container">
+      <img class="gallery-img" src={image.imgurl} alt={image.alt || `Gallery image ${i + 1}`} loading="lazy" />
     </div>
-    <div class="bg-white p-4 mt-4 mb-4">
-        <h2>Crew</h2>
-        {#each CREW as member, i (i)}
-            <p><strong>{member.name}</strong> {member.role}</p>
-        {/each}
-    </div>
-    <div class="bg-white p-4 mt-4 mb-4">
-        <h6>Alumni</h6>
-        {#each ALUMNI as member, i (i)}
-            <p><strong>{member.name}</strong> {member.role}</p>
-        {/each}
-    </div>
-    <div class="bg-white p-4 mt-4 mb-4">
-        <h2 class="mt-4 mb-4">Collaborators</h2>
-        <p>
-            Our debut EP was released in partnership with <strong>Neon Grid Collective</strong>, a digital label for synthwave artists.
-        </p>
-        <p> Production and mixing by <strong>Skyline Studios</strong>, who also join us for immersive live AV sets.
-        </p>
-    </div>
+  {/each}
 </div>

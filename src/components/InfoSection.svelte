@@ -1,20 +1,21 @@
-<script>
-    export let title = "";
-    export let html = "";
-    export let content = "";
-    export let members = [];
-    export let hasList = false;
+<script lang="ts">
+  export let title: string = "";
+  export let html: string = "";
+  export let members: { name: string; role: string }[] = [];
+  export let hasList: boolean = false;
 </script>
 
-<div class="bg-white p-4 mt-4 mb-4">
-    <h1>{title}</h1>
+<div class="infosection">
+  {#if title}
+    <h2>{title}</h2>
+  {/if}
+  <div class="infosection-content">
     {#if hasList}
-        {#each members as member, i (i)}
-            <p class="text-black"><strong>{member.name}</strong> {member.role}</p>
-        {/each}
+      {#each members as member}
+        <p><strong>{member.name}</strong> {member.role}</p>
+      {/each}
     {:else if html}
-        <div class="prose text-black">{@html html}</div>
-    {:else}
-        <p class="text-black">{content}</p>
+      <div>{@html html}</div>
     {/if}
+  </div>
 </div>

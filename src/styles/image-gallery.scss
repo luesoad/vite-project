@@ -1,19 +1,31 @@
-.gallery {
+@use "constants" as *;
+
+.image-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1.5rem;
-  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: $gallery-gap;
+  margin: 3rem 0 2rem 0;
+  padding: 0 0.5rem;
+}
 
-  &__item {
-    &__image {
-      max-width: 100%;
-      height: auto;
-      object-fit: cover;
-      transition: opacity 0.25s ease-in-out;
+.gallery-img-container {
+  background: $color-white;
+  border-radius: $gallery-radius;
+  box-shadow: 0 4px 32px #0003, 0 1.5px 6px $color-card-bg-hover;
+  overflow: hidden;
+  transition: transform 0.22s cubic-bezier(0.4,0,0.2,1), box-shadow 0.22s cubic-bezier(0.4,0,0.2,1);
 
-      &:hover {
-        opacity: 0.7;
-      }
-    }
+  &:hover {
+    transform: scale(1.025) translateY(-4px);
+    box-shadow: 0 12px 48px $color-card-bg-hover, 0 0 32px $color-accent;
   }
+}
+
+.gallery-img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  transition: filter 0.2s;
+  filter: brightness(0.97) contrast(1.1);
 }

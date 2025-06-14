@@ -1,0 +1,62 @@
+@use "constants" as *;
+
+.infosection {
+  background: $color-white;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 32px #0003, 0 1.5px 6px $color-card-bg-hover;
+  padding: 2.5rem 2rem;
+  margin: 2.5rem 0;
+  position: relative;
+  overflow: hidden;
+  transition: box-shadow 0.25s;
+
+  h1, h2, h6 {
+    color: $color-black;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    background: none;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  h6 {
+    font-size: 1.1rem;
+    color: $color-gray-dark;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+
+  .infosection-content {
+    color: $color-black;
+    position: relative;
+    z-index: 1;
+
+    p, li {
+      color: $color-black;
+      margin-bottom: 1.1rem;
+      line-height: 1.7;
+    }
+
+    a {
+      color: $color-blue;
+      text-decoration: underline;
+      transition: color 0.2s;
+      &:hover {
+        color: $color-accent;
+      }
+    }
+
+    strong {
+      color: $color-white;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (min-width: $breakpoint-md) {
+  .infosection {
+    padding: 3rem 3rem;
+    margin: 3rem 0;
+  }
+}
