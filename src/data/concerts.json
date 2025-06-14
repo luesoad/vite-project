@@ -1,12 +1,94 @@
 [
   {
-    "year": 2023,
+    "year": 2026,
     "concerts": [
       {
-        "location": "Atlantis",
-        "bands": ["The Blue Whales", "Neon Coral"],
-        "date": "2023-04-21",
+        "location": "Crystal Palace",
+        "bands": ["Future Beats", "Neon Skyline"],
+        "date": "2026-03-15",
+        "time": "20:00"
+      },
+      {
+        "location": "Hyperion Hall",
+        "bands": ["Synth Masters", "Laser Fox"],
+        "date": "2026-05-10",
+        "time": "19:30"
+      },
+      {
+        "location": "Nova Arena",
+        "bands": ["Stellar Sound", "Retro Wave"],
+        "date": "2026-09-18",
+        "time": "21:00"
+      },
+      {
+        "location": "Celestial Dome",
+        "bands": ["Galactic Groove", "Neon Skyline"],
+        "date": "2026-12-01",
+        "time": "20:45"
+      }
+    ]
+  },
+  {
+    "year": 2025,
+    "concerts": [
+      {
+        "location": "Aurora Dome",
+        "bands": ["Starlight Express", "Neon Skyline"],
+        "date": "2025-01-20",
+        "time": "19:00"
+      },
+      {
+        "location": "Lunar Arena",
+        "bands": ["Moonwalkers", "Neon Skyline"],
+        "date": "2025-12-05",
+        "time": "21:00"
+      },
+      {
+        "location": "Echo Hall",
+        "bands": ["Digital Dreamers", "Laser Fox"],
+        "date": "2025-02-14",
         "time": "18:30"
+      },
+      {
+        "location": "Neon Plaza",
+        "bands": ["Skyline Studios", "Retro Wave"],
+        "date": "2025-11-11",
+        "time": "20:00"
+      },
+      {
+        "location": "Sunset Pavilion",
+        "bands": ["Vapor Trails", "Neon Skyline"],
+        "date": "2025-07-08",
+        "time": "19:45"
+      }
+    ]
+  },
+  {
+    "year": 2024,
+    "concerts": [
+      {
+        "location": "Sunset Hall",
+        "bands": ["Golden Hour", "Neon Skyline"],
+        "date": "2024-11-22",
+        "time": "20:30"
+      },
+      {
+        "location": "Mirage Club",
+        "bands": ["Dream Sequence", "Laser Fox"],
+        "date": "2024-12-17",
+        "time": "21:15"
+      },
+      {
+        "location": "Pixel Theater",
+        "bands": ["Bit Shifters", "Neon Skyline"],
+        "date": "2024-10-05",
+        "time": "20:00"
+      },
+      {
+        "location": "Retro Lounge",
+        "bands": ["Analog Hearts", "Retro Wave"],
+        "date": "2024-09-09",
+        "time": "19:30"
       }
     ]
   },
@@ -30,192 +112,12 @@
         "bands": ["Bat Signals", "Joker's Wild"],
         "date": "2022-07-30",
         "time": "21:00"
-      }
-    ]
-  },
-  {
-    "year": 2019,
-    "concerts": [
-      {
-        "location": "Springfield",
-        "bands": ["Donut Kings"],
-        "date": "2019-05-17",
-        "time": "17:30"
       },
       {
-        "location": "Bedrock",
-        "bands": ["Stone Age Rollers", "Dino Groove"],
-        "date": "2019-04-09",
-        "time": "16:00"
-      }
-    ]
-  },
-  {
-    "year": 2018,
-    "concerts": [
-      {
-        "location": "Duckburg",
-        "date": "2018-12-01",
-        "time": "19:00"
-      }
-    ]
-  },
-  {
-    "year": 2016,
-    "concerts": [
-      {
-        "location": "Neverland",
-        "bands": ["Lost Boys"]
-      },
-      {
-        "location": "Narnia",
-        "bands": ["Wardrobe Wonders", "Lion's Roar", "Winter's End"]
-      },
-      {
-        "location": "Rivendell",
-        "bands": ["Elven Strings", "Moonlit Path", "Starlit Harmony"]
-      },
-      {
-        "location": "Bikini Bottom",
-        "bands": ["Jellyfish Jam", "Krabby Patties"]
-      },
-      {
-        "location": "Mushroom Kingdom",
-        "bands": ["Koopa Troop", "Super Stars", "Goomba Groove", "Pipe Dreams"]
-      },
-      {
-        "location": "Wakanda",
-        "bands": ["Panther Power", "Vibranium Vibes", "Midnight Tribe"]
-      }
-    ]
-  },
-  {
-    "year": 2015,
-    "concerts": [
-      {
-        "location": "Metropolis",
-        "bands": ["Steel Flyers", "Lex's Lament"]
-      },
-      {
-        "location": "El Dorado",
-        "bands": ["Golden Notes"]
-      },
-      {
-        "location": "Hyrule",
-        "bands": ["Triforce Trio", "Master Sword"]
-      },
-      {
-        "location": "Atlantis",
-        "bands": ["Merfolk Melodies", "Deep Sea Sound", "Coral Chorus"]
-      },
-      {
-        "location": "Camelot",
-        "bands": ["Knights of Rhythm", "Round Table", "Dragon's Breath"]
-      },
-      {
-        "location": "Oz",
-        "bands": ["Emerald Beats", "Yellow Brick Band", "Wicked West"]
-      }
-    ]
-  },
-  {
-    "year": 2014,
-    "concerts": [
-      {
-        "location": "Pandora",
-        "bands": ["Avatar Airwaves", "Tree of Souls", "Na'vi Notes"]
-      },
-      {
-        "location": "Hogsmeade",
-        "bands": ["Butterbeer Brass", "Magic Melody", "Phoenix Song"]
-      },
-      {
-        "location": "Mos Eisley",
-        "bands": ["Cantina Band", "Twin Suns"]
-      },
-      {
-        "location": "Baker Street",
-        "bands": ["Holmes & Watson"]
-      },
-      {
-        "location": "Transylvania",
-        "bands": ["Moonlit Howlers", "Vampire Waltz"]
-      }
-    ]
-  },
-  {
-    "year": 2013,
-    "concerts": [
-      {
-        "location": "Gotham",
-        "bands": ["Nightwing", "Harlequin"]
-      },
-      {
-        "location": "Smallville",
-        "bands": ["Kryptonite Kings"]
-      },
-      {
-        "location": "Sunnydale",
-        "bands": ["Slayer's Song", "Hellmouth Harmony"]
-      },
-      {
-        "location": "Hill Valley",
-        "bands": ["Flux Capacitors", "Enchantment Under the Sea"]
-      },
-      {
-        "location": "Whoville",
-        "bands": ["Grinch Groove"]
-      },
-      {
-        "location": "King's Landing",
-        "bands": ["Iron Throne", "Dragonfire", "Winterfell", "Red Keep"]
-      },
-      {
-        "location": "Asgard",
-        "bands": ["Thunderstruck", "Bifrost"]
-      },
-      {
-        "location": "Mordor",
-        "bands": ["Ringbearers", "Shire Folk"]
-      }
-    ]
-  },
-  {
-    "year": 2012,
-    "concerts": [
-      {
-        "location": "Hawkins",
-        "bands": ["Demogorgon", "Mind Flayer"]
-      },
-      {
-        "location": "Gotham",
-        "bands": ["Batmobile"]
-      },
-      {
-        "location": "Raccoon City",
-        "bands": ["Umbrella Corp"]
-      }
-    ]
-  },
-  {
-    "year": 2011,
-    "concerts": [
-      {
-        "location": "Pawnee",
-        "bands": [
-          "Mouse Rat",
-          "Scarecrow Boat",
-          "Just the Tip",
-          "Everything Rhymes with Orange"
-        ]
-      },
-      {
-        "location": "Stars Hollow",
-        "bands": ["Hep Alien", "Troubadours"]
-      },
-      {
-        "location": "Springfield",
-        "bands": ["Be Sharps", "Cypress Creek", "Bleeding Gums Murphy"]
+        "location": "Sunset Hall",
+        "bands": ["Golden Hour", "Retro Wave"],
+        "date": "2022-11-12",
+        "time": "20:30"
       }
     ]
   }

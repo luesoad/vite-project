@@ -10,11 +10,11 @@
     <h1>{title}</h1>
     {#if hasList}
         {#each members as member, i (i)}
-            <p><strong>{member.name}</strong> {member.role}</p>
+            <p class="text-black"><strong>{member.name}</strong> {member.role}</p>
         {/each}
     {:else if html}
-        <div class="prose">{@html html}</div>
+        <div class="prose text-black">{@html html}</div>
     {:else}
-        <p>{content}</p>
+        <p class="text-black">{content}</p>
     {/if}
 </div>

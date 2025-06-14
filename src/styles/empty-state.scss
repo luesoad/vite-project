@@ -1,0 +1,7 @@
+@use "constants" as *;
+
+.empty-state {
+  color: $color-gray;
+  font-style: italic;
+  margin: 2rem 0;
+}

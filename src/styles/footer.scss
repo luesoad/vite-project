@@ -1,6 +1,154 @@
-@use "colors";
-.footer__icon {
+@use "constants" as *;
+
+.footer {
+  background: $color-black;
+  color: $color-white;
+  padding: 2.5rem 0 1.5rem 0;
+  font-size: $font-size-base;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.footer-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-logo {
+  width: 88px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.footer-contact {
+  text-align: center;
+  font-size: $font-size-base;
+  line-height: 1.4;
+}
+
+.footer-contact-link {
+  color: $color-accent;
+  text-decoration: underline;
+  transition: color 0.2s;
   &:hover {
-    fill: colors.$white;
+    color: $color-white;
+  }
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.footer-section {
+  min-width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+  background: none;
+  color: $color-white;
+  padding: 0;
+  border-radius: 0;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.footer-icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $color-white;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #0002;
+  &:hover {
+    background: $color-accent;
+    box-shadow: 0 4px 16px #0004;
+  }
+}
+
+.footer-icon-img {
+  width: $footer-icon-size;
+  height: $footer-icon-size;
+  display: block;
+}
+
+.footer-legal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.footer-legal-link {
+  color: $color-accent;
+  text-decoration: underline;
+  transition: color 0.2s;
+  font-size: $font-size-base;
+  &:hover {
+    color: $color-white;
+  }
+}
+
+/* Tablet & up: nebeneinander, weniger Lücken */
+@media (min-width: $breakpoint-md) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+  .footer-brand {
+    align-items: flex-start;
+    text-align: left;
+    flex: 1 1 300px;
+  }
+  .footer-links {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: flex-start;
+    flex: 2 1 0;
+    justify-content: flex-end;
+  }
+  .footer-section {
+    align-items: flex-start;
+  }
+  .footer-legal-list {
+    text-align: left;
+  }
+}
+
+/* Große Screens: mehr Abstand */
+@media (min-width: $breakpoint-lg) {
+  .footer-container {
+    gap: 3rem;
+    padding: 0 2rem;
+  }
+  .footer-links {
+    gap: 3rem;
   }
 }

@@ -28,7 +28,9 @@
 <Navigation atTheTop={hidden} />
 
 <section class="section">
-    {@render children?.()}
+    <div class="container">
+        {@render children?.()}
+    </div>
 </section>
 
 <svelte:window on:scroll={handleOnScroll} />

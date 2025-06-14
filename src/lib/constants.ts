@@ -1,5 +1,5 @@
 // Images
-export const HERO_IMAGE = "https://picsum.photos/800/600?image=0";
+export const HERO_IMAGE = "https://picsum.photos/1920/700?image=0";
 export const LOGO_IMAGE = "https://loremflickr.com/320/240/cat";
 
 export const CREW = [

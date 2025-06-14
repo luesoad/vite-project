@@ -1,0 +1,23 @@
+@use "constants" as *;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  background: $color-black;
+  color: $color-white !important;
+  display: table;
+  width: auto !important;
+  padding: 0 0.5rem;
+  font-weight: bold !important;
+  border-radius: 0; 
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  padding-left: 0;
+}

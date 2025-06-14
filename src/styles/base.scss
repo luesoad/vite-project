@@ -1,0 +1,35 @@
+@use "constants" as *;
+
+body {
+  font-family: "Courier New", Courier, FreeMono, monospace;
+  font-size: $font-size-base;
+  background: $color-black;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: darkred;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+ul.list-disc {
+  padding-left: 1rem;
+}
+
+strong {
+  background: $color-black;
+  color: $color-white;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+button {
+  background: $color-black;
+  color: $color-white;
+  border-radius: 0;
+}
