@@ -3,10 +3,10 @@
     "year": 2023,
     "concerts": [
       {
-        "location": "Würzburg",
-        "bands": ["Horrormance", "Ratrotten"],
-        "date": "2023-05-12",
-        "time": "20.00"
+        "location": "Atlantis",
+        "bands": ["The Blue Whales", "Neon Coral"],
+        "date": "2023-04-21",
+        "time": "18:30"
       }
     ]
   },
@@ -14,22 +14,22 @@
     "year": 2022,
     "concerts": [
       {
-        "location": "Marburg",
-        "bands": ["Verheerer", "Friisk"],
-        "date": "2022-11-26",
-        "time": "19.30"
+        "location": "Emerald City",
+        "bands": ["Ruby Slippers", "Tin Men"],
+        "date": "2022-09-10",
+        "time": "20:00"
       },
       {
-        "location": "Landau",
-        "bands": ["Hexis", "Aeternum"],
-        "date": "2022-10-19",
-        "time": "19.00"
+        "location": "Hogsmeade",
+        "bands": ["Wand Wavers", "Snitch Seekers"],
+        "date": "2022-08-15",
+        "time": "19:45"
       },
       {
-        "location": "Rodgau",
-        "bands": ["Hyems", "Black Parable"],
-        "date": "2022-10-15",
-        "time": "19.00"
+        "location": "Gotham",
+        "bands": ["Bat Signals", "Joker's Wild"],
+        "date": "2022-07-30",
+        "time": "21:00"
       }
     ]
   },
@@ -37,16 +37,16 @@
     "year": 2019,
     "concerts": [
       {
-        "location": "Mannheim",
-        "bands": ["Ketzer"],
-        "date": "2019-07-2021",
-        "time": "19.00"
+        "location": "Springfield",
+        "bands": ["Donut Kings"],
+        "date": "2019-05-17",
+        "time": "17:30"
       },
       {
-        "location": "Göttingen",
-        "bands": ["Uada", "Panzerfaust"],
-        "date": "2019-06-20",
-        "time": "16.00"
+        "location": "Bedrock",
+        "bands": ["Stone Age Rollers", "Dino Groove"],
+        "date": "2019-04-09",
+        "time": "16:00"
       }
     ]
   },
@@ -54,9 +54,9 @@
     "year": 2018,
     "concerts": [
       {
-        "location": "Darmstadt",
-        "date": "2018-11-24",
-        "time": "19.00"
+        "location": "Duckburg",
+        "date": "2018-12-01",
+        "time": "19:00"
       }
     ]
   },
@@ -64,28 +64,28 @@
     "year": 2016,
     "concerts": [
       {
-        "location": "JUZ Mannheim",
-        "bands": ["Yellow Eyes"]
+        "location": "Neverland",
+        "bands": ["Lost Boys"]
       },
       {
-        "location": "Lörrach",
-        "bands": ["Warfield", "Disinfektor", "Askara"]
+        "location": "Narnia",
+        "bands": ["Wardrobe Wonders", "Lion's Roar", "Winter's End"]
       },
       {
-        "location": "Hofheim",
-        "bands": ["Heimdalls Wacht", "Narvik", "Halphas", "Svartsorg", "Streams of Blood"]
+        "location": "Rivendell",
+        "bands": ["Elven Strings", "Moonlit Path", "Starlit Harmony"]
       },
       {
-        "location": "Saarbrücken",
-        "bands": ["Sunshine & Lollipops", "Carn Dûm"]
+        "location": "Bikini Bottom",
+        "bands": ["Jellyfish Jam", "Krabby Patties"]
       },
       {
-        "location": "Bobstadt",
-        "bands": ["Hyems", "Vargsheim", "Golgothar", "Overfrost"]
+        "location": "Mushroom Kingdom",
+        "bands": ["Koopa Troop", "Super Stars", "Goomba Groove", "Pipe Dreams"]
       },
       {
-        "location": "Göttingen",
-        "bands": ["Endless Curse", "The Flesh Trading Company", "Crimson Death"]
+        "location": "Wakanda",
+        "bands": ["Panther Power", "Vibranium Vibes", "Midnight Tribe"]
       }
     ]
   },
@@ -93,28 +93,28 @@
     "year": 2015,
     "concerts": [
       {
-        "location": "Darmstadt",
-        "bands": ["hessaja", "Thakandar"]
+        "location": "Metropolis",
+        "bands": ["Steel Flyers", "Lex's Lament"]
       },
       {
-        "location": "Frankfurt",
-        "bands": ["Solbrud"]
+        "location": "El Dorado",
+        "bands": ["Golden Notes"]
       },
       {
-        "location": "Stuttgart",
-        "bands": ["Pest Empire", "Fortress Black"]
+        "location": "Hyrule",
+        "bands": ["Triforce Trio", "Master Sword"]
       },
       {
-        "location": "Oberhausen",
-        "bands": ["Thyrgrims", "Northern Plague", "Pestreiter"]
+        "location": "Atlantis",
+        "bands": ["Merfolk Melodies", "Deep Sea Sound", "Coral Chorus"]
       },
       {
-        "location": "Leonberg",
-        "bands": ["Hyems", "Firtan", "Fantoft", "Wrack"]
+        "location": "Camelot",
+        "bands": ["Knights of Rhythm", "Round Table", "Dragon's Breath"]
       },
       {
-        "location": "Darmstadt",
-        "bands": ["Hyems", "Steingrab", "Pest Empire"]
+        "location": "Oz",
+        "bands": ["Emerald Beats", "Yellow Brick Band", "Wicked West"]
       }
     ]
   },
@@ -122,24 +122,24 @@
     "year": 2014,
     "concerts": [
       {
-        "location": "Frankenthal",
-        "bands": ["Astaron", "Angur", "Minotaurus"]
+        "location": "Pandora",
+        "bands": ["Avatar Airwaves", "Tree of Souls", "Na'vi Notes"]
       },
       {
-        "location": "Osnabrück",
-        "bands": ["Occultus", "Thakandar", "Larvae"]
+        "location": "Hogsmeade",
+        "bands": ["Butterbeer Brass", "Magic Melody", "Phoenix Song"]
       },
       {
-        "location": "Mülheim/Ruhr",
-        "bands": ["geÄst", "Morne"]
+        "location": "Mos Eisley",
+        "bands": ["Cantina Band", "Twin Suns"]
       },
       {
-        "location": "Kreuztal/Siegen",
-        "bands": ["Sekoria"]
+        "location": "Baker Street",
+        "bands": ["Holmes & Watson"]
       },
       {
-        "location": "Wehrheim",
-        "bands": ["Felsenfeste", "Lucem Ferre"]
+        "location": "Transylvania",
+        "bands": ["Moonlit Howlers", "Vampire Waltz"]
       }
     ]
   },
@@ -147,36 +147,36 @@
     "year": 2013,
     "concerts": [
       {
-        "location": "Würzburg",
-        "bands": ["Apokrypha", "Vargsheim"]
+        "location": "Gotham",
+        "bands": ["Nightwing", "Harlequin"]
       },
       {
-        "location": "Darmstadt",
-        "bands": ["Blood Patrol"]
+        "location": "Smallville",
+        "bands": ["Kryptonite Kings"]
       },
       {
-        "location": "Cottbus",
-        "bands": ["Arroganz", "Bitchhammer"]
+        "location": "Sunnydale",
+        "bands": ["Slayer's Song", "Hellmouth Harmony"]
       },
       {
-        "location": "Essen",
-        "bands": ["Frigoris", "Urmorth", "Caradras"]
+        "location": "Hill Valley",
+        "bands": ["Flux Capacitors", "Enchantment Under the Sea"]
       },
       {
-        "location": "Darmstadt",
-        "bands": ["Frigoris"]
+        "location": "Whoville",
+        "bands": ["Grinch Groove"]
       },
       {
-        "location": "Kaiserslautern",
-        "bands": ["Draugen", "Wolfhetan", "Schattenbrandung", "Infestus"]
+        "location": "King's Landing",
+        "bands": ["Iron Throne", "Dragonfire", "Winterfell", "Red Keep"]
       },
       {
-        "location": "Mannheim",
-        "bands": ["geÄst", "Ctulu"]
+        "location": "Asgard",
+        "bands": ["Thunderstruck", "Bifrost"]
       },
       {
-        "location": "Hofheim",
-        "bands": ["Hyems", "High Rise Fall"]
+        "location": "Mordor",
+        "bands": ["Ringbearers", "Shire Folk"]
       }
     ]
   },
@@ -184,16 +184,16 @@
     "year": 2012,
     "concerts": [
       {
-        "location": "Frankfurt",
-        "bands": ["Der Weg Einer Freiheit", "Arroganz"]
+        "location": "Hawkins",
+        "bands": ["Demogorgon", "Mind Flayer"]
       },
       {
-        "location": "Darmstadt",
-        "bands": ["Kain"]
+        "location": "Gotham",
+        "bands": ["Batmobile"]
       },
       {
-        "location": "Leipzig",
-        "bands": ["Cold Aeon"]
+        "location": "Raccoon City",
+        "bands": ["Umbrella Corp"]
       }
     ]
   },
@@ -201,16 +201,21 @@
     "year": 2011,
     "concerts": [
       {
-        "location": "Mannheim",
-        "bands": ["Deadwood", "Winterfallen", "Asuras", "Khaos Aeon"]
+        "location": "Pawnee",
+        "bands": [
+          "Mouse Rat",
+          "Scarecrow Boat",
+          "Just the Tip",
+          "Everything Rhymes with Orange"
+        ]
       },
       {
-        "location": "Mainz",
-        "bands": ["Orcus Patera", "Contraption"]
+        "location": "Stars Hollow",
+        "bands": ["Hep Alien", "Troubadours"]
       },
       {
-        "location": "Osnabrück",
-        "bands": ["Under That Spell", "Negativvm", "Träumen von Aurora"]
+        "location": "Springfield",
+        "bands": ["Be Sharps", "Cypress Creek", "Bleeding Gums Murphy"]
       }
     ]
   }
