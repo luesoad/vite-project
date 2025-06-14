@@ -1,11 +1,10 @@
 <script lang="ts">
-    import {Heading} from "flowbite-svelte";
 </script>
 
 
 <div class="container ft-container bg-white">
-    <Heading>Privacy Policy</Heading>
-    <Heading tag="h3">UMFANG UND ZWECK DER VERARBEITUNG PERSONENBEZOGENER DATEN</Heading>
+    <h1>Privacy Policy</h1>
+    <h3>UMFANG UND ZWECK DER VERARBEITUNG PERSONENBEZOGENER DATEN</h3>
     <p><strong>AUFRUF DER WEBSEITE</strong><br>
         Beim Aufruf dieser Webseite werden durch den Internet-Browser, den der Besucher verwendet, automatisch Daten
         an den Server dieser Webseite gesendet und zeitlich begrenzt in einer Protokolldatei gespeichert. Bis zur
@@ -31,7 +30,7 @@
         Webseite zu gewinnen.<br>
         <strong>Sämtliche hier folgenden Ausführungen beziehen sich einzig und allein auf die unten genannten Daten,
             welche beim Besuch der Webseite erhobenen wurden.</strong></p>
-    <Heading tag="h3">WEITERGABE VON DATEN</Heading>
+    <h3>WEITERGABE VON DATEN</h3>
     <p>Personenbezogene Daten werden nur an Dritte übermittelt, wenn</p>
     <ul class="list-disc">
         <li>die Weitergabe nach Art. 6 Abs. 1 Satz 1 lit. f) DSGVO zur Geltendmachung, Ausübung oder Verteidigung
@@ -42,7 +41,7 @@
             besteht.
         </li>
     </ul>
-    <Heading tag="h3">COOKIES</Heading>
+    <h3>COOKIES</h3>
     <p>Auf der Webseite werden sog. Cookies eingesetzt. Das sind Datenpakete, die zwischen dem Server der Webseite
         und dem Browser des Besuchers ausgetauscht werden. Diese werden beim Besuch der Webseite von den jeweils
         verwendeten Geräten (PC, Notebook, Tablet, Smartphone etc.) gespeichert. In den Cookies werden Informationen
@@ -58,10 +57,10 @@
         vorgenommen wurden, um diese nicht wiederholen zu müssen. Die durch Cookies verarbeiteten Daten sind für die
         o. g. Zwecke zur Wahrung der berechtigten Interessen nach Art. 6 Abs. 1 Satz 1 lit. f) DSGVO
         gerechtfertigt.</p>
-    <Heading tag="h3">IHRE RECHTE ALS BETROFFENE PERSON</Heading>
+    <h3>IHRE RECHTE ALS BETROFFENE PERSON</h3>
     <p>Soweit Ihre personenbezogenen Daten anlässlich des Besuchs unserer Webseite verarbeitet werden, stehen Ihnen
         als „betroffene Person“ im Sinne der DSGVO folgende Rechte zu:</p>
-    <Heading class="mt-4 mb-2" tag="h4">AUSKUNFT</Heading>
+    <h4>AUSKUNFT</h4>
     <p>Sie können von uns Auskunft darüber verlangen, ob personenbezogene Daten von Ihnen bei uns verarbeitet
         werden. Kein Auskunftsrecht besteht, wenn die Erteilung der begehrten Informationen gegen die
         Verschwiegenheitspflicht gem. § 57 Abs. 1 StBerG verstoßen würde oder die Informationen aus sonstigen
@@ -101,11 +100,11 @@
             geeigneten Garantien gem. Art. 46 Abs. 2 DSGVO zum Schutze der personenbezogenen Daten vorgesehen sind.
         </li>
     </ul>
-    <Heading class="mt-4 mb-2" tag="h4">BERICHTIGUNG UND VERVOLLSTÄNDIGUNG</Heading>
+    <h4 class="mt-4 mb-2">BERICHTIGUNG UND VERVOLLSTÄNDIGUNG</h4>
     <p>Sofern Sie feststellen, dass uns unrichtige personenbezogene Daten von Ihnen vorliegen, können Sie von uns
         die unverzügliche Berichtigung dieser unrichtigen Daten verlangen. Bei unvollständigen, Sie betreffenden,
         personenbezogenen Daten können sie die Vervollständigung verlangen.</p>
-    <Heading class="mt-4 mb-2" tag="h4">LÖSCHUNG</Heading>
+    <h4 class="mt-4 mb-2">LÖSCHUNG</h4>
     <p>Sie haben ein Recht auf Löschung („Recht auf Vergessenwerden“), sofern die Verarbeitung nicht zur Ausübung
         des Rechts auf freie Meinungsäußerung, des Rechts auf Information oder zur Erfüllung einer rechtlichen
         Verpflichtung oder zur Wahrnehmung einer Aufgabe, die im öffentlichen Interesse liegt, erforderlich ist und
@@ -130,7 +129,7 @@
             tritt an die Stelle einer Löschung die Einschränkung der Verarbeitung.
         </li>
     </ul>
-    <Heading class="mt-4 mb-2" tag="h4">EINSCHRÄNKUNG DER VERARBEITUNG</Heading>
+    <h4 class="mt-4 mb-2">EINSCHRÄNKUNG DER VERARBEITUNG</h4>
     <p>Sie können von uns die Einschränkung der Verarbeitung verlangen, wenn einer der nachstehenden Gründe
         zutrifft:</p>
     <ul class="list-disc">
@@ -152,7 +151,7 @@
             Sie darüber zu unterrichten.
         </li>
     </ul>
-    <Heading class="mt-4 mb-2" tag="h4">DATENÜBERTRAGBARKEIT</Heading>
+    <h4 class="mt-4 mb-2">DATENÜBERTRAGBARKEIT</h4>
     <p>Sie haben ein Recht auf Datenübertragbarkeit, sofern die Verarbeitung auf Ihrer Einwilligung (Art. 6 Abs. 1
         Satz 1 lit. a) oder Art. 9 Abs. 2 lit. a) DSGVO) oder auf einem Vertrag beruht, dessen Vertragspartei Sie
         sind und die Verarbeitung mithilfe automatisierter Verfahren erfolgt. Das Recht auf Datenübertragbarkeit
@@ -162,7 +161,7 @@
         Recht, diese Daten einem anderen Verantwortlichen ohne Behinderung unserseits zu übermitteln. Soweit
         technisch machbar, können Sie von uns verlangen, dass wir Ihre personenbezogenen Daten direkt an einen
         anderen Verantwortlichen übermitteln.</p>
-    <Heading class="mt-4 mb-2" tag="h4">WIDERSPRUCH</Heading>
+    <h4 class="mt-4 mb-2">WIDERSPRUCH</h4>
     <p>Sofern die Verarbeitung auf Art. 6 Abs. 1 Satz 1 lit. e) DSGVO (Wahrnehmung einer Aufgabe im öffentlichen
         Interesse oder in Ausübung öffentlicher Gewalt) oder auf Art. 6 Abs. 1 Satz 1 lit. f) DSGVO (berechtigtes
         Interesse des Verantwortlichen oder eines Dritten) beruht, haben Sie das Recht, aus Gründen, die sich aus
@@ -177,13 +176,13 @@
         Verbindung steht. Nach Ausübung dieses Widerspruchsrechts werden wir die betreffenden personenbezogenen
         Daten nicht mehr für Zwecke der Direktwerbung verwenden.<br>
         Sie haben die Möglichkeit den Widerspruch per E-Mail formlos mitzuteilen.</p>
-    <Heading class="mt-4 mb-2" tag="h4">WIDERRUF EINER EINWILLIGUNG</Heading>
+    <h4 class="mt-4 mb-2">WIDERRUF EINER EINWILLIGUNG</h4>
     <p>Sie haben das Recht eine erteilte Einwilligung jederzeit mit Wirkung für die Zukunft zu widerrufen. Der
         Widerruf der Einwilligung kann telefonisch, per E-Mail formlos
         mitgeteilt werden. Durch den Widerruf wird die Rechtmäßigkeit der Datenverarbeitung, die aufgrund der
         Einwilligung bis zum Eingang des Widerrufs erfolgt ist, nicht berührt. Nach Eingang des Widerrufs wird die
         Datenverarbeitung, die ausschließlich auf Ihrer Einwilligung beruhte, eingestellt.</p>
-    <Heading class="mt-4 mb-2" tag="h4">BESCHWERDE</Heading>
+    <h4 class="mt-4 mb-2">BESCHWERDE</h4>
     <p>Wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten rechtswidrig
         ist, können Sie Beschwerde bei einer Aufsichtsbehörde für den Datenschutz einlegen, die für den Ort Ihres
         Aufenthaltes oder Arbeitsplatzes oder für den Ort des mutmaßlichen Verstoßes zuständig ist.</p>

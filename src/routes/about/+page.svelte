@@ -1,5 +1,4 @@
 <script>
-    import { Img } from "flowbite-svelte";
     import { CREW, HERO_IMAGE } from '../../lib/constants.js';
     import ImageGallery from "../../components/ImageGallery.svelte";
     import InfoSection from '../../components/InfoSection.svelte';
@@ -27,12 +26,12 @@
 </script>
 
 <div class="container ft-container">
-    <Img alt="Neon Skyline Synthwave Project" class="m-auto" src={HERO_IMAGE} />
+    <img alt="Neon Skyline Synthwave Project" class="m-auto" src={HERO_IMAGE} />
     
-    <InfoSection title="Mission" content={missionText} />
+    <InfoSection title="Mission" html={missionText} />
     <InfoSection title="Crew" members={CREW} hasList={true} />
-    <InfoSection title="Alumni" content={alumniText} />
-    <InfoSection title="Collaborators" content={collaboratorsText} />
+    <InfoSection title="Alumni" html={alumniText} />
+    <InfoSection title="Collaborators" html={collaboratorsText} />
     
     <ImageGallery images={images} />
 </div>

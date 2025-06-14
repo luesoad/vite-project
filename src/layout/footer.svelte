@@ -1,6 +1,5 @@
-<script>
-    import { Footer, FooterIcon, FooterLink, FooterLinkGroup, Img } from "flowbite-svelte";
-    import { LOGO_IMAGE } from '../lib/constants.js';
+<script lang="ts">
+    import { LOGO_IMAGE } from '../lib/constants';
 
     const icons = [
         { href: "https://facebook.com", svg: "<svg xmlns='http://www.w3.org/2000/svg' fill='currentColor' viewBox='0 0 16 16'><path d='M8 0C3.58 0 0 3.58 0 8c0 4.42 3.58 8 8 8 4.42 0 8-3.58 8-8 0-4.42-3.58-8-8-8zm1.5 8H7v5H5V8H3V6h2V5c0-1.1.9-2 2-2h2v2H8c-.55 0-1 .45-1 1v1h2l-1 2z'/></svg>" },
@@ -9,38 +8,48 @@
     ];
 </script>
 
-<Footer class="bg-black text-white" footerType="socialmedia">
-    <div class="md:flex md:justify-between">
-        <div class="mb-6 md:mb-0">
-            <Img
+<footer class="bg-black text-white py-8">
+    <div class="container mx-auto px-4 md:flex md:justify-between">
+        <div class="mb-6 md:mb-0 flex flex-col gap-2">
+            <img
                 alt="A Band"
-                class="logo"
-                name="A Band"
+                class="logo w-24 h-auto object-contain mb-2 mx-auto"
                 src={LOGO_IMAGE}
             />
-            Official communications, booking & orders: <strong>
-                <a href="mailto:contact@aband.com">Contact us</a>
-            </strong>
+            <span>
+                Official communications, booking & orders: <strong>
+                    <a href="mailto:contact@aband.com" class="underline hover:text-gray-300">Contact us</a>
+                </strong>
+            </span>
         </div>
         <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
                 <h2 class="mb-6 text-sm font-semibold uppercase">Follow us</h2>
-                <div class="flex"> 
+                <div class="flex">
                     {#each icons as icon}
-                        <FooterIcon class="mr-2 hover:bg-white"
-                            href={icon.href} rel="noreferrer"
-                            target="_blank" innerHTML={icon.svg}>
-                        </FooterIcon>
+                        <a
+                            href={icon.href}
+                            rel="noreferrer"
+                            target="_blank"
+                            class="mr-2 p-2 rounded-full hover:bg-white hover:text-black transition-colors"
+                            aria-label="Social Icon"
+                        >
+                            {@html icon.svg}
+                        </a>
                     {/each}
                 </div>
             </div>
             <div>
                 <h2 class="mb-6 text-sm font-semibold uppercase">Legal</h2>
-                <FooterLinkGroup>
-                    <FooterLink href="/privacy" liClass="mb-4">Privacy Policy</FooterLink>
-                    <FooterLink href="/impressum" liClass="mb-4">Impressum</FooterLink>
-                </FooterLinkGroup>
+                <ul>
+                    <li class="mb-4">
+                        <a href="/privacy" class="hover:underline">Privacy Policy</a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="/impressum" class="hover:underline">Impressum</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-</Footer>
+</footer>

@@ -2,19 +2,18 @@
     import Player from "../../components/Player.svelte";
     import albums from "../../data/albums.json";
     import videoIds from "../../data/videoIds.json";
-    import { Heading } from "flowbite-svelte";
 
 </script>
 
 <div class="container ft-container">
-    <Heading>Our albums</Heading>
+    <h1>Our albums</h1>
     <div class="flex-container">
         {#each albums as album}
             <Player link={album} type="spotify"/>
         {/each}
     </div>
 
-    <Heading class="mt-4" tag="h2">See us live</Heading>
+    <h2 class="mt-4">See us live</h2>
     <div class="flex-container">
         {#each videoIds as id}
             <Player videoId={id} type="youtube"/>

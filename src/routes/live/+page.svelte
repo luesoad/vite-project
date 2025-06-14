@@ -1,20 +1,19 @@
 <script lang="ts">
     import concerts from "../../data/concerts.json";
-    import { Heading, Img } from "flowbite-svelte";
     import { HERO_IMAGE } from '../../lib/constants';
     import type { ConcertYear } from '../../lib/types';
     const concertsData: ConcertYear[] = concerts as ConcertYear[];
 </script>
 
-<Img alt="A Band" class="m-auto" src={HERO_IMAGE}/>
+<img alt="A Band" class="m-auto" src={HERO_IMAGE}/>
 
 <div class="container ft-container">
-    <Heading class="pb-4">Concerts</Heading>
+    <h1 class="pb-4">Concerts</h1>
     <div class="flex-container">
         {#each concertsData as el}
             <div class="two-col-item">
                 <div>
-                    <Heading tag="h2" class="mb-2">{el.year}</Heading>
+                    <h2 class="mb-2">{el.year}</h2>
                     <ul class="mb-4">
                         {#each el.concerts as concert}
                             <li>

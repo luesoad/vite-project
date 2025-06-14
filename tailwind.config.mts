@@ -1,11 +1,7 @@
-import flowbite from "flowbite/plugin";
+import type { Config } from "tailwindcss";
 
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./src/**/*.{html,js,svelte,ts}",
-    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
-  ],
+const config: Config = {
+  content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     colors: {
       blue: "#1fb6ff",
@@ -31,6 +27,7 @@ export default {
       },
     },
   },
-  plugins: [flowbite],
   darkMode: "class",
 };
+
+export default config;

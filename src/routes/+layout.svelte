@@ -1,8 +1,9 @@
 <script lang="ts">
+    import '../tailwind.css';
+    import '../app.scss';
     import Navigation from "../layout/Navigation.svelte";
     import Footer from "../layout/Footer.svelte";
     import BackToTopButton from "../components/BackToTopButton.svelte";
-    import '../app.scss';
     import type { Snippet } from "svelte";
 
     interface LayoutProps {
