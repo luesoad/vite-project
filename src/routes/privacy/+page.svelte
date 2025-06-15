@@ -2,7 +2,7 @@
 </script>
 
 
-<div class="container ft-container bg-white">
+<div class="container ft-container bg-white text-black">
     <h1>Privacy Policy</h1>
     <h3>UMFANG UND ZWECK DER VERARBEITUNG PERSONENBEZOGENER DATEN</h3>
     <p><strong>AUFRUF DER WEBSEITE</strong><br>

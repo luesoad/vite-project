@@ -1,9 +1,7 @@
 <script lang="ts">
     import articles from "../../data/articles.json";
-    import { HERO_IMAGE } from '../../lib/constants';
 </script>
 
-<img alt="Neon Skyline Synthwave Project" class="m-auto" src={HERO_IMAGE} />
 
 <div class="container ft-container">
     <h1>Press</h1>

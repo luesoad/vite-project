@@ -1,5 +1,5 @@
 <script>
-  import { CREW, HERO_IMAGE } from '../../lib/constants.js';
+  import { CREW } from '../../lib/constants.js';
   import ImageGallery from "../../components/ImageGallery.svelte";
   import InfoSection from '../../components/InfoSection.svelte';
 
@@ -30,7 +30,6 @@
 </script>
 
 <div class="container ft-container">
-  <img alt="Neon Skyline Synthwave Project" class="m-auto" src={HERO_IMAGE} />
 
   <InfoSection title="Mission" html={missionText} />
   <InfoSection title="Crew" members={CREW} hasList={true} />

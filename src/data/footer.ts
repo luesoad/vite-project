@@ -18,7 +18,7 @@ export const icons = [
 
 export const legalLinks = [
   { href: "/privacy", label: "Privacy Policy" },
-  { href: "/impressum", label: "Impressum" },
+  { href: "/imprint", label: "Imprint" },
 ];
 
 export const contact = {
