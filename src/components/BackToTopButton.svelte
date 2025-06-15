@@ -1,9 +1,9 @@
 <script lang="ts">
-    export let isVisible = false;
+  export let isVisible = false;
 
-    function goTop() {
-        document.body.scrollIntoView({ behavior: 'smooth' });
-    }
+  function goTop() {
+    document.body.scrollIntoView({ behavior: 'smooth' });
+  }
 </script>
 
 <button

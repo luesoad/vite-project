@@ -6,9 +6,9 @@
     import Footer from "../layout/Footer.svelte";
     import BackToTopButton from "../components/BackToTopButton.svelte";
     import HeroSection from "../components/HeroSection.svelte";
+    import FavoritesCounter from "../components/FavoritesCounter.svelte";
     import { HERO_IMAGES } from "../lib/constants";
     import type { Snippet } from "svelte";
-
 
     function getRandomHeroImage() {
         const idx = Math.floor(Math.random() * HERO_IMAGES.length);
@@ -44,6 +44,8 @@
 </script>
 
 <Navigation />
+
+<FavoritesCounter />
 
 <HeroSection
     image={heroImage}
