@@ -6,8 +6,8 @@ h3,
 h4,
 h5,
 h6 {
-  background: $color-black;
-  color: $color-white;;
+  background: var(--color-black);
+  color: var(--color-white);
   display: table;
   width: auto !important;
   padding: 0 0.5rem;

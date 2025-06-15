@@ -1,16 +1,7 @@
 @use "constants" as *;
 
-body {
-  font-family: "Courier New", Courier, FreeMono, monospace;
-  font-size: $font-size-base;
-  background: $color-black;
-  color: $color-white;
-  display: flex;
-  flex-direction: column;
-}
-
 a {
-  color: $color-red-dark;
+  color: var(--color-red-dark);
 }
 
 p {
@@ -22,14 +13,14 @@ ul.list-disc {
 }
 
 strong {
-  background: $color-black;
-  color: $color-white;
+  background: var(--color-black);
+  color: var(--color-white);
   padding-right: 2px;
   padding-left: 2px;
 }
 
 button {
-  background: $color-black;
-  color: $color-white;
+  background: var(--color-black);
+  color: var(--color-white);
   border-radius: 0;
 }

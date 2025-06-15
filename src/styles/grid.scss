@@ -1,5 +1,4 @@
-@use "colors";
-@use "constants";
+@use "constants" as *;
 
 .flex-container {
   display: flex;
@@ -12,10 +11,10 @@
   padding: 0.5rem;
   display: flex;
   flex: 100%;
-  background: colors.$white;
+  background: var(--color-white);
 }
 
-@media only screen and (min-width: constants.$breakpoint-lg) {
+@media only screen and (min-width: $breakpoint-lg) {
   .two-col-item {
     flex: 0 47%;
   }
@@ -34,7 +33,7 @@
   padding-top: 0;
   height: 0;
   overflow: hidden;
-  border: 5px solid colors.$white;
+  border: 5px solid var(--color-card-bg-hover);
 
   iframe,
   object,
@@ -47,7 +46,7 @@
   }
 }
 
-@media only screen and (min-width: constants.$breakpoint-lg) {
+@media only screen and (min-width: $breakpoint-lg) {
   .player-wrapper {
     flex: 0 47%;
   }

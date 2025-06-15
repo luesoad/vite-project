@@ -7,7 +7,7 @@ export const icons = [
   {
     href: "https://twitter.com",
     label: "X",
-    svg: "/icons/twitter.svg",
+    svg: "/icons/x.svg",
   },
   {
     href: "https://instagram.com",

@@ -6,7 +6,7 @@
 <footer class="footer">
   <div class="footer-container">
     <div class="footer-brand">
-      <img alt="A Band" class="footer-logo" src={LOGO_IMAGE} />
+      <img alt="Neon Skyline Synthwave Project" class="footer-logo" src={LOGO_IMAGE} />
       <span class="footer-contact">
         Official communications, booking & orders:
         <strong>

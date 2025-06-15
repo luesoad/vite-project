@@ -1,29 +1,22 @@
 <script lang="ts">
-    import concerts from "../../data/concerts.json";
-    import { HERO_IMAGE } from '../../lib/constants';
-    import ConcertList from '../../components/ConcertList.svelte';
-    import { flattenConcerts, getUpcomingConcerts, getPastConcerts, type ExtendedConcert } from "../../utils/concerts";
-
-    const now = new Date();
-    const allConcerts: ExtendedConcert[] = flattenConcerts(concerts);
-    const upcomingConcerts = getUpcomingConcerts(allConcerts, now);
-    const pastConcerts = getPastConcerts(allConcerts, now);
+  export let data;
+  import { HERO_IMAGE } from '../../lib/constants';
+  import TextCard from '../../components/TextCard.svelte';
 </script>
 
-<img alt="A Band" class="m-auto" src={HERO_IMAGE} />
+<div class="container mx-auto max-w-3xl px-4 pb-8">
+  <img
+    alt="Neon Skyline Synthwave Project"
+    class="w-full shadow-xl mb-8"
+    src={HERO_IMAGE}
+  />
 
-<div class="container ft-container mt-4 mb-4">
-    <h2 class="mt-8">Upcoming Concerts</h2>
-    {#if upcomingConcerts.length > 0}
-        <ConcertList concerts={upcomingConcerts} />
-    {:else}
-        <p class="text-gray-400">No upcoming concerts.</p>
-    {/if}
-
-    <h2 class="mt-8">Past Concerts</h2>
-    {#if pastConcerts.length > 0}
-        <ConcertList concerts={pastConcerts} />
-    {:else}
-        <p class="text-gray-400">No past concerts.</p>
-    {/if}
+  <h1 class="text-3xl md:text-4xl font-bold text-center mb-8 text-accent drop-shadow-[0_2px_8px_rgba(255,200,44,0.3)]">
+    Random Inspiration
+  </h1>
+  <div class="flex flex-col gap-6">
+    {#each data.posts as post (post.id)}
+      <TextCard title={post.title} text={post.body} />
+    {/each}
+  </div>
 </div>

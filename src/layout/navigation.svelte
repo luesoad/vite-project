@@ -28,7 +28,7 @@
 <nav class={`main-nav ${atTheTop ? "" : "nav--scrolled"}`}>
   <div class="container flex flex-wrap items-center justify-between mx-auto">
     <a href="/" class="flex items-center space-x-3">
-      <img src={LOGO_IMAGE} alt="A Band Logo" class="logo" />
+      <img src={LOGO_IMAGE} alt="Neon Skyline Synthwave Project Logo" class="logo" />
     </a>
 
     <button
@@ -59,7 +59,7 @@
           </li>
         {/each}
         <li class="mt-10 md:hidden flex justify-center">
-          <img alt="A Band" class="logo" src={LOGO_IMAGE} />
+          <img alt="Neon Skyline Synthwave Project" class="logo" src={LOGO_IMAGE} />
         </li>
       </ul>
     </div>

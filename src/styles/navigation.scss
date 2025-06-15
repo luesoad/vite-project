@@ -6,35 +6,35 @@ nav {
   left: 0;
   width: 100vw;
   z-index: 200;
-  background: rgba($color-black, 0.92);
+  background: rgba(17, 17, 17, 0.92);
   box-shadow:
-    0 2px 16px 0 rgba($color-card-bg-hover, 0.18),
-    0 8px 32px 0 rgba($color-black, 0.24),
-    0 1.5px 6px 0 $color-accent;
+    0 2px 16px 0 rgba(35, 35, 35, 0.18),
+    0 8px 32px 0 rgba(17, 17, 17, 0.24),
+    0 1.5px 6px 0 rgba(255, 200, 44, 0.7);
   backdrop-filter: blur(6px);
-  transition: all 0.5s cubic-bezier(0.4,0,0.2,1);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 
   &.nav--scrolled {
     padding: 0.6rem 0;
-    background: rgba($color-black, 0.98);
+    background: rgba(17, 17, 17, 0.98);
     box-shadow:
-      0 4px 24px 0 rgba($color-card-bg-hover, 0.30),
-      0 12px 48px 0 rgba($color-black, 0.28),
-      0 2px 8px 0 $color-accent;
+      0 4px 24px 0 rgba(35, 35, 35, 0.30),
+      0 12px 48px 0 rgba(17, 17, 17, 0.28),
+      0 2px 8px 0 rgba(255, 200, 44, 0.8);
   }
 }
 
 .logo {
-  height: 70px;
+  height: $logo-height;
   width: auto;
-  transition: height 0.5s cubic-bezier(0.4,0,0.2,1);
+  transition: height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 nav.nav--scrolled .logo {
-  height: 38px;
+  height: $logo-height--scrolled;
 }
 
 ul.nav-ul {
-  background: transparent !important;
+  background: transparent;
   border: none;
   border-radius: 0;
   height: auto;
@@ -46,8 +46,7 @@ ul.nav-ul {
 }
 
 a.nav-li {
-  font-size: $font-size-base; 
-  color: $color-white;
+  color: var(--color-white);
   padding: 0.7rem 1.2rem;
   border-radius: 0.4rem;
   transition: background 0.2s, color 0.2s;
@@ -55,47 +54,46 @@ a.nav-li {
 
   &:hover,
   &.active {
-    background: $color-card-bg-hover;
-    color: $color-accent;
+    background: var(--color-card-bg-hover);
+    color: var(--color-accent);
   }
 }
 
 button.burger {
-  background: $color-black;
-  color: $color-white !important;
-  border-radius: 0.3rem !important;
-  border: 2px solid $color-gray !important;
+  background: var(--color-black);
+  color: var(--color-white);
+  border-radius: 0.3rem;
+  border: 2px solid var(--color-gray);
   transition: background 0.2s, color 0.2s;
 
   &:hover,
   &:focus,
   &:active {
-    background: $color-card-bg-hover;
-    color: $color-accent !important;
-    border: 2px solid $color-accent !important;
+    background: var(--color-card-bg-hover);
+    color: var(--color-accent);
+    border: 2px solid var(--color-accent);
   }
 }
 
-@media only screen and (max-width: $breakpoint-md) {
+@media only screen and (max-width: #{$breakpoint-md}) {
   ul.nav-ul {
     flex-direction: column;
     gap: 0.5rem;
-    background: $color-black !important;
+    background: var(--color-black);
     padding: 1.5rem 0;
     width: 100vw;
     left: 0;
     top: 100%;
-    border-top: 1px solid $color-card-bg-hover;
-    box-shadow: 0 8px 32px rgba($color-card-bg-hover, 0.18);
+    border-top: 1px solid var(--color-card-bg-hover);
+    box-shadow: 0 8px 32px rgba(35, 35, 35, 0.18);
   }
   a.nav-li {
     width: 100%;
     text-align: center;
-    font-size: $font-size-base;
     padding: 1rem 0;
     border-radius: 0;
   }
   .logo {
-    height: 48px;
+    height: $logo-height--mobile;
   }
 }

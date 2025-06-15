@@ -1,14 +1,14 @@
 @use "constants" as *;
 
 .footer {
-  background: $color-black;
-  color: $color-white;
+  background: var(--color-black);
+  color: var(--color-white);
   padding: 2.5rem 0 1.5rem 0;
-  font-size: $font-size-base;
+  font-size: var(--font-size-base);
 }
 
 .footer-container {
-  max-width: 1200px;
+  max-width: $breakpoint-lg;
   margin: 0 auto;
   padding: 0 1.5rem;
   display: flex;
@@ -32,16 +32,16 @@
 
 .footer-contact {
   text-align: center;
-  font-size: $font-size-base;
+  font-size: var(--font-size-base);
   line-height: 1.4;
 }
 
 .footer-contact-link {
-  color: $color-accent;
+  color: var(--color-accent);
   text-decoration: underline;
   transition: color 0.2s;
   &:hover {
-    color: $color-white;
+    color: var(--color-white);
   }
 }
 
@@ -66,7 +66,7 @@
   margin-bottom: 1rem;
   letter-spacing: 0.05em;
   background: none;
-  color: $color-white;
+  color: var(--color-white);
   padding: 0;
   border-radius: 0;
 }
@@ -80,13 +80,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $color-white;
+  background: var(--color-white);
   border-radius: 0.5rem;
   padding: 0.1rem;
   transition: background 0.2s, box-shadow 0.2s;
   box-shadow: 0 2px 8px #0002;
   &:hover {
-    background: $color-accent;
+    background: var(--color-accent);
     box-shadow: 0 4px 16px #0004;
   }
 }
@@ -105,16 +105,15 @@
 }
 
 .footer-legal-link {
-  color: $color-accent;
+  color: var(--color-accent);
   text-decoration: underline;
   transition: color 0.2s;
-  font-size: $font-size-base;
+  font-size: var(--font-size-base);
   &:hover {
-    color: $color-white;
+    color: var(--color-white);
   }
 }
 
-/* Tablet & up: nebeneinander, weniger Lücken */
 @media (min-width: $breakpoint-md) {
   .footer-container {
     flex-direction: row;
@@ -142,7 +141,6 @@
   }
 }
 
-/* Große Screens: mehr Abstand */
 @media (min-width: $breakpoint-lg) {
   .footer-container {
     gap: 3rem;

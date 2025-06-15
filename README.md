@@ -1,3 +1,5 @@
 # Svelte project
 
-# IN PROGRESS
+npm install
+
+npm run dev

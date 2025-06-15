@@ -10,20 +10,20 @@
 }
 
 .concert-card {
-  background: linear-gradient(120deg, $color-card-bg 80%, $color-card-bg-hover 100%);
+  background: linear-gradient(120deg, var(--color-card-bg) 80%, var(--color-card-bg-hover) 100%);
   box-shadow: 0 4px 24px #000a;
   padding: 1.5rem 2rem;
-  color: $color-white;
+  color: var(--color-white);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
   transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1), background 0.4s cubic-bezier(0.4,0,0.2,1);
-  border-radius: 0; // Keine runden Ecken mehr
+  border-radius: 0; 
 }
 .concert-card:hover {
   transform: translateY(-4px) scale(1.02);
   box-shadow: 0 8px 32px #000c;
-  background: linear-gradient(120deg, $color-card-bg-hover 85%, #333 100%);
+  background: linear-gradient(120deg, var(--color-card-bg-hover) 85%, #333 100%);
 }
 
 .concert-header {
@@ -36,12 +36,12 @@
 }
 
 .concert-location {
-  color: $color-accent;
+  color: var(--color-accent);
   letter-spacing: 0.03em;
 }
 
 .concert-date {
-  color: $color-gray;
+  color: var(--color-gray);
   font-size: 0.95rem;
   font-weight: normal;
   margin-left: 1rem;
@@ -51,7 +51,7 @@
 .concert-bands {
   margin-top: 0.25rem;
   font-size: 1rem;
-  color: $color-white;
+  color: var(--color-white);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -60,16 +60,16 @@
 
 .concert-with {
   font-style: italic;
-  color: $color-gray;
+  color: var(--color-gray);
   margin-right: 0.4rem;
 }
 
 .concert-band {
-  color: $color-white;
+  color: var(--color-white);
   font-weight: 500;
 }
 
 .sep {
-  color: $color-accent;
+  color: var(--color-accent);
   margin: 0 0.2rem;
 }

@@ -7,7 +7,7 @@
 
 <div class="container ft-container">
     <h1>Press</h1>
-    <p class="bg-white p-2">
+    <p class="bg-white p-2 text-black">
         Over time, our synthwave project has caught the attention of bloggers, reviewers, and playlist curators across the globe. From “retro-futuristic bliss” to “an electrifying sonic journey,” the feedback has been as varied as the neon colors in our visuals. Dive into the articles below and discover what the world is saying.<br>
     </p>
     {#each articles as article, i (i)}
