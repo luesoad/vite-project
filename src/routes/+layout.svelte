@@ -15,7 +15,7 @@
 />
 
 <section class="section">
-  <div class="container">
+  <div class="container max-w-full px-2 sm:px-4">
     <slot />
   </div>
 </section>
