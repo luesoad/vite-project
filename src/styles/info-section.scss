@@ -2,14 +2,18 @@
 
 .infosection {
   background: var(--color-white);
-  box-shadow: 0 4px 32px #0003, 0 1.5px 6px var(--color-card-bg-hover);
+  box-shadow:
+    0 4px 32px #0003,
+    0 1.5px 6px var(--color-card-bg-hover);
   padding: 2.5rem 2rem;
   margin: 2.5rem 0;
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.25s;
 
-  h1, h2, h6 {
+  h1,
+  h2,
+  h6 {
     color: var(--color-black);
     margin-bottom: 1.2rem;
     font-weight: 700;
@@ -31,7 +35,8 @@
     position: relative;
     z-index: 1;
 
-    p, li {
+    p,
+    li {
       color: var(--color-black);
       margin-bottom: 1.1rem;
       line-height: 1.7;

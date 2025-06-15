@@ -83,7 +83,9 @@
   background: var(--color-white);
   border-radius: 0.5rem;
   padding: 0.1rem;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
   box-shadow: 0 2px 8px #0002;
   &:hover {
     background: var(--color-accent);

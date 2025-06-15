@@ -14,16 +14,16 @@ export function generateICS(concert: Concert & { year?: number }) {
     Number(concert.date.slice(5, 7)) - 1,
     Number(concert.date.slice(8, 10)),
     Number(hour) + 2,
-    Number(minute)
+    Number(minute),
   );
   const dtend = toICSDateTime(
     `${endDate.getFullYear()}-${String(endDate.getMonth() + 1).padStart(
       2,
-      "0"
+      "0",
     )}-${String(endDate.getDate()).padStart(2, "0")}`,
     `${String(endDate.getHours()).padStart(2, "0")}:${String(
-      endDate.getMinutes()
-    ).padStart(2, "0")}`
+      endDate.getMinutes(),
+    ).padStart(2, "0")}`,
   );
 
   const summary = `${(concert.bands || []).join(", ")} @ ${

@@ -18,7 +18,7 @@ nav {
     padding: 0.6rem 0;
     background: rgba(17, 17, 17, 0.98);
     box-shadow:
-      0 4px 24px 0 rgba(35, 35, 35, 0.30),
+      0 4px 24px 0 rgba(35, 35, 35, 0.3),
       0 12px 48px 0 rgba(17, 17, 17, 0.28),
       0 2px 8px 0 rgba(255, 200, 44, 0.8);
   }
@@ -49,7 +49,9 @@ a.nav-li {
   color: var(--color-white);
   padding: 0.7rem 1.2rem;
   border-radius: 0.4rem;
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
   background: transparent;
   font-size: 1rem;
   font-weight: 400;
@@ -66,7 +68,9 @@ button.burger {
   color: var(--color-white);
   border-radius: 0.3rem;
   border: 2px solid var(--color-gray);
-  transition: background 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    color 0.2s;
 
   &:hover,
   &:focus,

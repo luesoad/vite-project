@@ -14,13 +14,13 @@ export function flattenConcerts(data: YearlyConcerts[]): ExtendedConcert[] {
     el.concerts.map((concert) => ({
       ...concert,
       year: el.year,
-    }))
+    })),
   );
 }
 
 export function getUpcomingConcerts(
   concerts: ExtendedConcert[],
-  now: Date
+  now: Date,
 ): ExtendedConcert[] {
   return concerts
     .filter((concert) => concert.date && new Date(concert.date) >= now)
@@ -29,7 +29,7 @@ export function getUpcomingConcerts(
 
 export function getPastConcerts(
   concerts: ExtendedConcert[],
-  now: Date
+  now: Date,
 ): ExtendedConcert[] {
   return concerts
     .filter((concert) => concert.date && new Date(concert.date) < now)

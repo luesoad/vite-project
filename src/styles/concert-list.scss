@@ -10,20 +10,31 @@
 }
 
 .concert-card {
-  background: linear-gradient(120deg, var(--color-card-bg) 80%, var(--color-card-bg-hover) 100%);
+  background: linear-gradient(
+    120deg,
+    var(--color-card-bg) 80%,
+    var(--color-card-bg-hover) 100%
+  );
   box-shadow: 0 4px 24px #000a;
   padding: 1.5rem 2rem;
   color: var(--color-white);
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1), background 0.4s cubic-bezier(0.4,0,0.2,1);
-  border-radius: 0; 
+  transition:
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    background 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 0;
 }
 .concert-card:hover {
   transform: translateY(-4px) scale(1.02);
   box-shadow: 0 8px 32px #000c;
-  background: linear-gradient(120deg, var(--color-card-bg-hover) 85%, #333 100%);
+  background: linear-gradient(
+    120deg,
+    var(--color-card-bg-hover) 85%,
+    #333 100%
+  );
 }
 
 .concert-header {

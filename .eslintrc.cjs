@@ -7,8 +7,14 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:svelte/recommended",
+    "plugin:eslint-plugin-svelte/recommended",
   ],
+  rules: {
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "@typescript-eslint/no-explicit-any": "off",
+    "svelte/no-at-html-tags": "off",
+  },
   overrides: [
     {
       files: ["*.svelte"],
@@ -19,12 +25,10 @@ module.exports = {
         ecmaVersion: 2020,
         sourceType: "module",
       },
+      rules: {
+        "svelte/no-at-html-tags": "off",
+      },
     },
   ],
   plugins: ["svelte", "@typescript-eslint"],
-  rules: {
-    "no-console": "warn",
-    "no-unused-vars": "warn",
-    "@typescript-eslint/no-explicit-any": "off",
-  },
 };
