@@ -3,24 +3,28 @@
     "year": 2026,
     "concerts": [
       {
+        "id": "2026-crystal-palace-2026-03-15",
         "location": "Crystal Palace",
         "bands": ["Future Beats", "Neon Skyline"],
         "date": "2026-03-15",
         "time": "20:00"
       },
       {
+        "id": "2026-hyperion-hall-2026-05-10",
         "location": "Hyperion Hall",
         "bands": ["Synth Masters", "Laser Fox"],
         "date": "2026-05-10",
         "time": "19:30"
       },
       {
+        "id": "2026-nova-arena-2026-09-18",
         "location": "Nova Arena",
         "bands": ["Stellar Sound", "Retro Wave"],
         "date": "2026-09-18",
         "time": "21:00"
       },
       {
+        "id": "2026-celestial-dome-2026-12-01",
         "location": "Celestial Dome",
         "bands": ["Galactic Groove", "Neon Skyline"],
         "date": "2026-12-01",
@@ -32,30 +36,35 @@
     "year": 2025,
     "concerts": [
       {
+        "id": "2025-aurora-dome-2025-01-20",
         "location": "Aurora Dome",
         "bands": ["Starlight Express", "Neon Skyline"],
         "date": "2025-01-20",
         "time": "19:00"
       },
       {
+        "id": "2025-lunar-arena-2025-12-05",
         "location": "Lunar Arena",
         "bands": ["Moonwalkers", "Neon Skyline"],
         "date": "2025-12-05",
         "time": "21:00"
       },
       {
+        "id": "2025-echo-hall-2025-02-14",
         "location": "Echo Hall",
         "bands": ["Digital Dreamers", "Laser Fox"],
         "date": "2025-02-14",
         "time": "18:30"
       },
       {
+        "id": "2025-neon-plaza-2025-11-11",
         "location": "Neon Plaza",
         "bands": ["Skyline Studios", "Retro Wave"],
         "date": "2025-11-11",
         "time": "20:00"
       },
       {
+        "id": "2025-sunset-pavilion-2025-07-08",
         "location": "Sunset Pavilion",
         "bands": ["Vapor Trails", "Neon Skyline"],
         "date": "2025-07-08",
@@ -67,24 +76,28 @@
     "year": 2024,
     "concerts": [
       {
+        "id": "2024-sunset-hall-2024-11-22",
         "location": "Sunset Hall",
         "bands": ["Golden Hour", "Neon Skyline"],
         "date": "2024-11-22",
         "time": "20:30"
       },
       {
+        "id": "2024-mirage-club-2024-12-17",
         "location": "Mirage Club",
         "bands": ["Dream Sequence", "Laser Fox"],
         "date": "2024-12-17",
         "time": "21:15"
       },
       {
+        "id": "2024-pixel-theater-2024-10-05",
         "location": "Pixel Theater",
         "bands": ["Bit Shifters", "Neon Skyline"],
         "date": "2024-10-05",
         "time": "20:00"
       },
       {
+        "id": "2024-retro-lounge-2024-09-09",
         "location": "Retro Lounge",
         "bands": ["Analog Hearts", "Retro Wave"],
         "date": "2024-09-09",
@@ -96,24 +109,28 @@
     "year": 2022,
     "concerts": [
       {
+        "id": "2022-emerald-city-2022-09-10",
         "location": "Emerald City",
         "bands": ["Ruby Slippers", "Tin Men"],
         "date": "2022-09-10",
         "time": "20:00"
       },
       {
+        "id": "2022-hogsmeade-2022-08-15",
         "location": "Hogsmeade",
         "bands": ["Wand Wavers", "Snitch Seekers"],
         "date": "2022-08-15",
         "time": "19:45"
       },
       {
+        "id": "2022-gotham-2022-07-30",
         "location": "Gotham",
         "bands": ["Bat Signals", "Joker's Wild"],
         "date": "2022-07-30",
         "time": "21:00"
       },
       {
+        "id": "2022-sunset-hall-2022-11-12",
         "location": "Sunset Hall",
         "bands": ["Golden Hour", "Retro Wave"],
         "date": "2022-11-12",

@@ -6,6 +6,7 @@ export type Concert = {
 };
 
 export type ConcertYear = {
+  id: string;
   year: number;
   concerts: Concert[];
 };

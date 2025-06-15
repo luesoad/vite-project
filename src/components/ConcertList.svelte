@@ -1,11 +1,30 @@
 <script lang="ts">
     import type { Concert } from '../lib/types';
+    import { favorites } from '../lib/stores/favorites';
     export let concerts: (Concert & { year?: number })[];
+
+    function toggleFavorite(id: string, event: Event) {
+        event.stopPropagation();
+        favorites.update(list =>
+            list.includes(id)
+                ? list.filter(favId => favId !== id)
+                : [...list, id]
+        );
+    }
 </script>
 
 <ul class="concert-list">
     {#each concerts as concert}
-        <li class="concert-card">
+        <li class="concert-card" style="position: relative;">
+            <button
+                style="position: absolute; top: 8px; right: 8px; background: none; border: none; padding: 0; font-size: 1.15em; color: #F5B301; cursor: pointer;"
+                aria-pressed={$favorites.includes(concert.id)}
+                on:click={(e) => toggleFavorite(concert.id, e)}
+                title="Als Favorit markieren"
+                tabindex="0"
+            >
+                {$favorites.includes(concert.id) ? '★' : '☆'}
+            </button>
             <div class="concert-header">
                 <span class="concert-location">{concert.location}</span>
                 <span class="concert-date">
