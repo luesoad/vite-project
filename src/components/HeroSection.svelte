@@ -1,9 +1,9 @@
 <script lang="ts">
   import { onMount } from "svelte";
   import { HERO_IMAGES } from "../lib/constants";
-  import { getRandomHeroImage } from "$lib/utils/concerts";
+  import { getRandomHeroImage } from "../lib/utils/hero-image";
 
-  export let image: string | undefined;
+  export let image: string | undefined = undefined;
   export let title: string;
   export let subtitle: string;
 

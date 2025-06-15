@@ -1,0 +1,44 @@
+.favorites-btn {
+  color: var(--color-white);
+  padding: 0.7rem 1.2rem;
+  border-radius: 0.4rem;
+  transition: background 0.2s, color 0.2s;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+
+  &.inactive,
+  &[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+  }
+
+  &:hover,
+  &.active {
+    background: var(--color-card-bg-hover);
+    color: var(--color-accent);
+  }
+}
+
+.favorites-btn .star-icon {
+  color: var(--color-accent, #eab308);
+  font-size: 1.2em;
+  line-height: 1;
+}
+
+.favorites-label, .favorites-count {
+  font-size: inherit;
+}
+
+@media (max-width: 767px) {
+  .favorites-label, .favorites-count {
+    display: none !important;
+  }
+}

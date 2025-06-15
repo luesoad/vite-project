@@ -2,6 +2,8 @@
   import routes from "../data/routes.json";
   import { LOGO_IMAGE } from "../lib/constants";
   import { onMount } from "svelte";
+  import FavoritesOverlay from "../components/FavoritesOverlay.svelte";
+  import NavItem from "../components/NavItem.svelte";
 
   let atTheTop = true;
   let activeUrl = "";
@@ -31,35 +33,35 @@
       <img src={LOGO_IMAGE} alt="Neon Skyline Synthwave Project Logo" class="logo" />
     </a>
 
-    <button
-      type="button"
-      class="burger md:hidden"
-      aria-controls="navbar-default"
-      aria-expanded={menuOpen}
-      on:click={toggleMenu}
-    >
-      <span class="sr-only">Open main menu</span>
-      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
+    <div class="flex items-center md:hidden gap-2">
+      <FavoritesOverlay iconOnly={true} />
+      <button
+        type="button"
+        class="burger"
+        aria-controls="navbar-default"
+        aria-expanded={menuOpen}
+        on:click={toggleMenu}
+      >
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
 
     <div class={`w-full md:block md:w-auto ${menuOpen ? '' : 'hidden'}`} id="navbar-default">
-      <ul class="nav-ul">
+      <ul class="nav-ul flex items-center gap-2">
         {#each routes as route}
-          <li>
-            <a
-              href={route.href}
-              class={`nav-li${activeUrl === route.href ? ' active' : ''}`}
-              aria-current={activeUrl === route.href ? 'page' : undefined}
-              on:click={closeMenu}
-            >
-              {route.text}
-            </a>
-          </li>
+          <NavItem
+            href={route.href}
+            active={activeUrl === route.href}
+            on:click={closeMenu}
+          >
+            {route.text}
+          </NavItem>
         {/each}
-        <li class="mt-10 md:hidden flex justify-center">
-          <img alt="Neon Skyline Synthwave Project" class="logo" src={LOGO_IMAGE} />
+        <li class="hidden md:block">
+          <FavoritesOverlay iconOnly={false} />
         </li>
       </ul>
     </div>
